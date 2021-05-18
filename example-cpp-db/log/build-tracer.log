@@ -1,0 +1,728 @@
+[T 12:37:39 49072] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:39 49072] Compilers file as of 2021-05-18 12:37:39
+[T 12:37:39 49072] Compiler pattern: **/configure
+[T 12:37:39 49072] Replace intercepted call: 0
+[T 12:37:39 49072] Extractor: <null>
+[T 12:37:39 49072] Compilers file as of 2021-05-18 12:37:39
+[T 12:37:39 49072] Compiler pattern: **/do-prebuild
+[T 12:37:39 49072] Replace intercepted call: 0
+[T 12:37:39 49072] Extractor: <null>
+[T 12:37:39 49072] Compilers file as of 2021-05-18 12:37:39
+[T 12:37:39 49072] Compiler pattern: **/collect2
+[T 12:37:39 49072] Replace intercepted call: 0
+[T 12:37:39 49072] Extractor: /scratch/queryLang/codeql/cpp/tools/linux64/extractor
+[T 12:37:39 49072] Prepend[0] "--linker"
+[T 12:37:39 49072] Prepend[1] "--semmle-linker-executable"
+[T 12:37:39 49072] Prepend[2] "${compiler}"
+[T 12:37:39 49072] Compilers file as of 2021-05-18 12:37:39
+[T 12:37:39 49072] Compiler pattern: **/lld*
+[T 12:37:39 49072] Replace intercepted call: 0
+[T 12:37:39 49072] Extractor: /scratch/queryLang/codeql/cpp/tools/linux64/extractor
+[T 12:37:39 49072] Prepend[0] "--linker"
+[T 12:37:39 49072] Prepend[1] "--semmle-linker-executable"
+[T 12:37:39 49072] Prepend[2] "${compiler}"
+[T 12:37:39 49072] Compilers file as of 2021-05-18 12:37:39
+[T 12:37:39 49072] Compiler pattern: **/*-ld*
+[T 12:37:39 49072] Replace intercepted call: 0
+[T 12:37:39 49072] Extractor: /scratch/queryLang/codeql/cpp/tools/linux64/extractor
+[T 12:37:39 49072] Prepend[0] "--linker"
+[T 12:37:39 49072] Prepend[1] "--semmle-linker-executable"
+[T 12:37:39 49072] Prepend[2] "${compiler}"
+[T 12:37:39 49072] Compilers file as of 2021-05-18 12:37:39
+[T 12:37:39 49072] Compiler pattern: **/ld*
+[T 12:37:39 49072] Replace intercepted call: 0
+[T 12:37:39 49072] Extractor: /scratch/queryLang/codeql/cpp/tools/linux64/extractor
+[T 12:37:39 49072] Prepend[0] "--linker"
+[T 12:37:39 49072] Prepend[1] "--semmle-linker-executable"
+[T 12:37:39 49072] Prepend[2] "${compiler}"
+[T 12:37:39 49072] Compilers file as of 2021-05-18 12:37:39
+[T 12:37:39 49072] Compiler pattern: **/armlink
+[T 12:37:39 49072] Replace intercepted call: 0
+[T 12:37:39 49072] Extractor: /scratch/queryLang/codeql/cpp/tools/linux64/extractor
+[T 12:37:39 49072] Prepend[0] "--arm-linker"
+[T 12:37:39 49072] Prepend[1] "--semmle-linker-executable"
+[T 12:37:39 49072] Prepend[2] "${compiler}"
+[T 12:37:39 49072] Compilers file as of 2021-05-18 12:37:39
+[T 12:37:39 49072] Compiler pattern: **/icpc
+[T 12:37:39 49072] Replace intercepted call: 0
+[T 12:37:39 49072] Extractor: /scratch/queryLang/codeql/cpp/tools/linux64/extractor
+[T 12:37:39 49072] Prepend[0] "--mimic"
+[T 12:37:39 49072] Prepend[1] "${compiler}"
+[T 12:37:39 49072] Compilers file as of 2021-05-18 12:37:39
+[T 12:37:39 49072] Compiler pattern: **/*++*
+[T 12:37:39 49072] Replace intercepted call: 0
+[T 12:37:39 49072] Extractor: /scratch/queryLang/codeql/cpp/tools/linux64/extractor
+[T 12:37:39 49072] Prepend[0] "--mimic"
+[T 12:37:39 49072] Prepend[1] "${compiler}"
+[T 12:37:39 49072] Compilers file as of 2021-05-18 12:37:39
+[T 12:37:39 49072] Compiler pattern: **/*cc*
+[T 12:37:39 49072] Replace intercepted call: 0
+[T 12:37:39 49072] Extractor: /scratch/queryLang/codeql/cpp/tools/linux64/extractor
+[T 12:37:39 49072] Prepend[0] "--mimic"
+[T 12:37:39 49072] Prepend[1] "${compiler}"
+[T 12:37:39 49072] Compilers file as of 2021-05-18 12:37:39
+[T 12:37:39 49072] Compiler pattern: **/*clang*
+[T 12:37:39 49072] Replace intercepted call: 0
+[T 12:37:39 49072] Extractor: /scratch/queryLang/codeql/cpp/tools/linux64/extractor
+[T 12:37:39 49072] Prepend[0] "--mimic"
+[T 12:37:39 49072] Prepend[1] "${compiler}"
+[T 12:37:39 49072] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:39 49072] Warning: SEMMLE_EXEC and SEMMLE_EXECP not set. Falling back to path lookup on argv[0].
+[T 12:37:39 49072] ==== Candidate to intercept: /scratch/queryLang/codeql/tools/linux64/runner-linux (canonical: /scratch/queryLang/codeql/tools/linux64/runner-linux) ====
+[T 12:37:39 49072] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:39 49072] ==== Candidate to intercept: /scratch/queryLang/codeql/cpp/tools/autobuild.sh (canonical: /scratch/queryLang/codeql/cpp/tools/autobuild.sh) ====
+[T 12:37:39 49073] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:39 49073] ==== Candidate to intercept: /scratch/queryLang/codeql/cpp/tools/do-prebuild (canonical: /scratch/queryLang/codeql/cpp/tools/do-prebuild) ====
+[T 12:37:39 49073] === Intercepted call to /scratch/queryLang/codeql/cpp/tools/do-prebuild === 
+[T 12:37:39 49073] Disabling tracing for this command.
+[T 12:37:39 49089] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:39 49089] ==== Candidate to intercept: /scratch/queryLang/codeql/cpp/tools/do-build (canonical: /scratch/queryLang/codeql/cpp/tools/do-build) ====
+[T 12:37:39 49090] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:39 49090] ==== Candidate to intercept: /usr/bin/readlink (canonical: /usr/bin/readlink) ====
+[T 12:37:39 49091] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:39 49091] ==== Candidate to intercept: /usr/bin/make (canonical: /usr/bin/make) ====
+[T 12:37:40 49092] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49092] ==== Candidate to intercept: g++ (canonical: g++) ====
+[T 12:37:40 49092] Will try to resolve g++ in path /usr/lib64/qt-3.3/bin:/users/xiaoxinz/perl5/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/ucb:/bin:/usr/bin:/opt/puppetlabs/bin.
+[T 12:37:40 49092]  -> path lookup for g++ as /usr/lib64/qt-3.3/bin/g++...
+[T 12:37:40 49092]  -> path lookup for g++ as /users/xiaoxinz/perl5/bin/g++...
+[T 12:37:40 49092]  -> path lookup for g++ as /usr/local/bin/g++...
+[T 12:37:40 49092]  -> path lookup for g++ as /usr/bin/g++...
+[T 12:37:40 49092] ==== Candidate to intercept: /usr/bin/g++ (canonical: /usr/bin/g++) ====
+[T 12:37:40 49092] === Intercepted call to /usr/bin/g++ === 
+[T 12:37:40 49092] Resolved barename g++ to /usr/bin/g++, which matched **/*++*...
+[T 12:37:40 49094] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49094] ==== Candidate to intercept: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1plus (canonical: /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus) ====
+[T 12:37:40 49094] === Intercepted call to /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus === 
+[T 12:37:40 49096] Attempting to switch stdout/stderr to 3...
+[T 12:37:40 49096] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[E 12:37:40 49096] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:40 49096] Current directory: /scratch/queryLang/example-cpp-project-master
+[E 12:37:40 49096] Command: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --mimic /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus -quiet -D_GNU_SOURCE Polygon.cpp -quiet -dumpbase Polygon.cpp -mtune=generic -march=x86-64 -auxbase-strip Polygon.o -o /tmp/ccRwH1YC.s
+[T 12:37:40 49097] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49097] ==== Candidate to intercept: /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus (canonical: /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus) ====
+[T 12:37:40 49097] === Intercepted call to /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus === 
+[T 12:37:40 49099] Attempting to switch stdout/stderr to 5...
+[T 12:37:40 49099] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[E 12:37:40 49099] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:40 49099] Current directory: /scratch/queryLang/example-cpp-project-master
+[E 12:37:40 49099] Command: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --mimic /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus --version
+[E 12:37:40 49099] Within classification loop; exiting.
+[T 12:37:40 49097] Extractor terminated with exit code 0.
+[T 12:37:40 49100] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49100] ==== Candidate to intercept: /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus (canonical: /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus) ====
+[T 12:37:40 49100] === Intercepted call to /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus === 
+[T 12:37:40 49102] Attempting to switch stdout/stderr to 5...
+[T 12:37:40 49102] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[E 12:37:40 49102] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:40 49102] Current directory: /scratch/queryLang/example-cpp-project-master
+[E 12:37:40 49102] Command: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --mimic /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus --help
+[E 12:37:40 49102] Within classification loop; exiting.
+[T 12:37:40 49100] Extractor terminated with exit code 0.
+[E 12:37:40 49096] Not a compiler; exiting. Reason: --version stdout was:
+
+--version stderr was:
+
+process exited with code 0
+
+[T 12:37:40 49094] Extractor terminated with exit code 0.
+[T 12:37:40 49103] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49103] ==== Candidate to intercept: as (canonical: as) ====
+[T 12:37:40 49103] Will try to resolve as in path /usr/lib64/qt-3.3/bin:/users/xiaoxinz/perl5/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/ucb:/bin:/usr/bin:/opt/puppetlabs/bin.
+[T 12:37:40 49103]  -> path lookup for as as /usr/lib64/qt-3.3/bin/as...
+[T 12:37:40 49103]  -> path lookup for as as /users/xiaoxinz/perl5/bin/as...
+[T 12:37:40 49103]  -> path lookup for as as /usr/local/bin/as...
+[T 12:37:40 49103]  -> path lookup for as as /usr/bin/as...
+[T 12:37:40 49103] ==== Candidate to intercept: /usr/bin/as (canonical: /usr/bin/as) ====
+[T 12:37:40 49103] Pathname resolved to /usr/bin/as, which does not match a compiler.
+[T 12:37:40 49104] Attempting to switch stdout/stderr to 3...
+[T 12:37:40 49104] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[E 12:37:40 49104] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:40 49104] Current directory: /scratch/queryLang/example-cpp-project-master
+[E 12:37:40 49104] Command: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --mimic '/usr/bin/g++' -c Polygon.cpp -o Polygon.o
+[T 12:37:40 49105] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49105] ==== Candidate to intercept: /usr/bin/g++ (canonical: /usr/bin/g++) ====
+[T 12:37:40 49105] === Intercepted call to /usr/bin/g++ === 
+[T 12:37:40 49107] Attempting to switch stdout/stderr to 5...
+[T 12:37:40 49107] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[E 12:37:40 49107] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:40 49107] Current directory: /scratch/queryLang/example-cpp-project-master
+[E 12:37:40 49107] Command: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --mimic '/usr/bin/g++' --version
+[E 12:37:40 49107] Within classification loop; exiting.
+[T 12:37:40 49105] Extractor terminated with exit code 0.
+[T 12:37:40 49108] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49108] ==== Candidate to intercept: /usr/bin/g++ (canonical: /usr/bin/g++) ====
+[T 12:37:40 49108] === Intercepted call to /usr/bin/g++ === 
+[T 12:37:40 49110] Attempting to switch stdout/stderr to 5...
+[T 12:37:40 49110] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[E 12:37:40 49110] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:40 49110] Current directory: /scratch/queryLang/example-cpp-project-master
+[E 12:37:40 49110] Command: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --mimic '/usr/bin/g++' --help
+[E 12:37:40 49110] Within classification loop; exiting.
+[T 12:37:40 49108] Extractor terminated with exit code 0.
+[T 12:37:40 49111] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49111] ==== Candidate to intercept: /usr/bin/g++ (canonical: /usr/bin/g++) ====
+[T 12:37:40 49111] === Intercepted call to /usr/bin/g++ === 
+[T 12:37:40 49113] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49113] ==== Candidate to intercept: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1plus (canonical: /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus) ====
+[T 12:37:40 49113] === Intercepted call to /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus === 
+[T 12:37:40 49115] Attempting to switch stdout/stderr to 5...
+[T 12:37:40 49115] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[E 12:37:40 49115] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:40 49115] Current directory: /scratch/queryLang/example-cpp-project-master
+[E 12:37:40 49115] Command: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --mimic /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus -quiet -nostdinc -D_GNU_SOURCE /scratch/queryLang/codeql/example-cpp-db/working/tmp//semmle_1_49104_263362semmle-0D54A72C891C4B89888FCE7759D3B8A5.c -quiet -dumpbase semmle_1_49104_263362semmle-0D54A72C891C4B89888FCE7759D3B8A5.c -mtune=generic -march=x86-64 -auxbase-strip /scratch/queryLang/codeql/example-cpp-db/working/tmp//semmle_2_49104_263396.o -o /tmp/ccEjahuX.s
+[E 12:37:40 49115] Not a compiler; exiting. Reason: 
+[T 12:37:40 49113] Extractor terminated with exit code 0.
+[T 12:37:40 49116] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49116] ==== Candidate to intercept: as (canonical: as) ====
+[T 12:37:40 49116] Will try to resolve as in path /usr/lib64/qt-3.3/bin:/users/xiaoxinz/perl5/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/ucb:/bin:/usr/bin:/opt/puppetlabs/bin.
+[T 12:37:40 49116]  -> path lookup for as as /usr/lib64/qt-3.3/bin/as...
+[T 12:37:40 49116]  -> path lookup for as as /users/xiaoxinz/perl5/bin/as...
+[T 12:37:40 49116]  -> path lookup for as as /usr/local/bin/as...
+[T 12:37:40 49116]  -> path lookup for as as /usr/bin/as...
+[T 12:37:40 49116] ==== Candidate to intercept: /usr/bin/as (canonical: /usr/bin/as) ====
+[T 12:37:40 49116] Pathname resolved to /usr/bin/as, which does not match a compiler.
+[T 12:37:40 49117] Attempting to switch stdout/stderr to 5...
+[T 12:37:40 49117] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[E 12:37:40 49117] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:40 49117] Current directory: /scratch/queryLang/example-cpp-project-master
+[E 12:37:40 49117] Command: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --mimic '/usr/bin/g++' -nostdinc -o /scratch/queryLang/codeql/example-cpp-db/working/tmp//semmle_2_49104_263396.o -c /scratch/queryLang/codeql/example-cpp-db/working/tmp//semmle_1_49104_263362semmle-0D54A72C891C4B89888FCE7759D3B8A5.c
+[E 12:37:40 49117] Within classification loop; exiting.
+[T 12:37:40 49111] Extractor terminated with exit code 0.
+[T 12:37:40 49118] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49118] ==== Candidate to intercept: /usr/bin/g++ (canonical: /usr/bin/g++) ====
+[T 12:37:40 49118] === Intercepted call to /usr/bin/g++ === 
+[T 12:37:40 49120] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49120] ==== Candidate to intercept: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1plus (canonical: /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus) ====
+[T 12:37:40 49120] === Intercepted call to /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus === 
+[T 12:37:40 49122] Attempting to switch stdout/stderr to 5...
+[T 12:37:40 49122] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[E 12:37:40 49122] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:40 49122] Current directory: /scratch/queryLang/example-cpp-project-master
+[E 12:37:40 49122] Command: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --mimic /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus -quiet -nostdinc -v -D_GNU_SOURCE -iwithprefix 80AD44EC-F542-4CCF-8C9F-328EB87D7D35 /scratch/queryLang/codeql/example-cpp-db/working/tmp//semmle_1_49104_263362semmle-0D54A72C891C4B89888FCE7759D3B8A5.c -quiet -dumpbase semmle_1_49104_263362semmle-0D54A72C891C4B89888FCE7759D3B8A5.c -mtune=generic -march=x86-64 -auxbase-strip /scratch/queryLang/codeql/example-cpp-db/working/tmp//semmle_2_49104_263396.o -version -o /tmp/ccVYznGW.s
+[E 12:37:40 49122] Not a compiler; exiting. Reason: --version stdout was:
+[T 12:37:40 49120] Extractor terminated with exit code 0.
+[T 12:37:40 49123] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49123] ==== Candidate to intercept: as (canonical: as) ====
+[T 12:37:40 49123] Will try to resolve as in path /usr/lib64/qt-3.3/bin:/users/xiaoxinz/perl5/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/ucb:/bin:/usr/bin:/opt/puppetlabs/bin.
+[T 12:37:40 49123]  -> path lookup for as as /usr/lib64/qt-3.3/bin/as...
+[T 12:37:40 49123]  -> path lookup for as as /users/xiaoxinz/perl5/bin/as...
+[T 12:37:40 49123]  -> path lookup for as as /usr/local/bin/as...
+[T 12:37:40 49123]  -> path lookup for as as /usr/bin/as...
+[T 12:37:40 49123] ==== Candidate to intercept: /usr/bin/as (canonical: /usr/bin/as) ====
+[T 12:37:40 49123] Pathname resolved to /usr/bin/as, which does not match a compiler.
+[T 12:37:40 49124] Attempting to switch stdout/stderr to 5...
+[T 12:37:40 49124] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[E 12:37:40 49124] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:40 49124] Current directory: /scratch/queryLang/example-cpp-project-master
+[E 12:37:40 49124] Command: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --mimic '/usr/bin/g++' -nostdinc -o /scratch/queryLang/codeql/example-cpp-db/working/tmp//semmle_2_49104_263396.o -c /scratch/queryLang/codeql/example-cpp-db/working/tmp//semmle_1_49104_263362semmle-0D54A72C891C4B89888FCE7759D3B8A5.c -v -iwithprefix 80AD44EC-F542-4CCF-8C9F-328EB87D7D35
+[E 12:37:40 49124] Within classification loop; exiting.
+[T 12:37:40 49118] Extractor terminated with exit code 0.
+[T 12:37:40 49125] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49125] ==== Candidate to intercept: /usr/bin/g++ (canonical: /usr/bin/g++) ====
+[T 12:37:40 49125] === Intercepted call to /usr/bin/g++ === 
+[T 12:37:40 49127] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49127] ==== Candidate to intercept: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1plus (canonical: /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus) ====
+[T 12:37:40 49127] === Intercepted call to /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus === 
+[T 12:37:40 49129] Attempting to switch stdout/stderr to 5...
+[T 12:37:40 49129] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[E 12:37:40 49129] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:40 49129] Current directory: /scratch/queryLang/example-cpp-project-master
+[E 12:37:40 49129] Command: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --mimic /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus -quiet -nostdinc -D_GNU_SOURCE /scratch/queryLang/codeql/example-cpp-db/working/tmp//semmle_4_49104_302170.c -quiet -dumpbase semmle_4_49104_302170.c -mtune=generic -march=x86-64 -auxbase-strip /scratch/queryLang/codeql/example-cpp-db/working/tmp//semmle_5_49104_302221.o -o /tmp/ccIQGrfZ.s
+[E 12:37:40 49129] Not a compiler; exiting. Reason: 
+[T 12:37:40 49127] Extractor terminated with exit code 0.
+[T 12:37:40 49130] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49130] ==== Candidate to intercept: as (canonical: as) ====
+[T 12:37:40 49130] Will try to resolve as in path /usr/lib64/qt-3.3/bin:/users/xiaoxinz/perl5/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/ucb:/bin:/usr/bin:/opt/puppetlabs/bin.
+[T 12:37:40 49130]  -> path lookup for as as /usr/lib64/qt-3.3/bin/as...
+[T 12:37:40 49130]  -> path lookup for as as /users/xiaoxinz/perl5/bin/as...
+[T 12:37:40 49130]  -> path lookup for as as /usr/local/bin/as...
+[T 12:37:40 49130]  -> path lookup for as as /usr/bin/as...
+[T 12:37:40 49130] ==== Candidate to intercept: /usr/bin/as (canonical: /usr/bin/as) ====
+[T 12:37:40 49130] Pathname resolved to /usr/bin/as, which does not match a compiler.
+[T 12:37:40 49131] Attempting to switch stdout/stderr to 5...
+[T 12:37:40 49131] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[E 12:37:40 49131] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:40 49131] Current directory: /scratch/queryLang/example-cpp-project-master
+[E 12:37:40 49131] Command: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --mimic '/usr/bin/g++' -nostdinc -o /scratch/queryLang/codeql/example-cpp-db/working/tmp//semmle_5_49104_302221.o -c /scratch/queryLang/codeql/example-cpp-db/working/tmp//semmle_4_49104_302170.c
+[E 12:37:40 49131] Within classification loop; exiting.
+[T 12:37:40 49125] Extractor terminated with exit code 0.
+[T 12:37:40 49132] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49132] ==== Candidate to intercept: /usr/bin/g++ (canonical: /usr/bin/g++) ====
+[T 12:37:40 49132] === Intercepted call to /usr/bin/g++ === 
+[T 12:37:40 49134] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49134] ==== Candidate to intercept: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1plus (canonical: /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus) ====
+[T 12:37:40 49134] === Intercepted call to /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus === 
+[T 12:37:40 49136] Attempting to switch stdout/stderr to 5...
+[T 12:37:40 49136] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[E 12:37:40 49136] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:40 49136] Current directory: /scratch/queryLang/example-cpp-project-master
+[E 12:37:40 49136] Command: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --mimic /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus -quiet -v -D_GNU_SOURCE /scratch/queryLang/codeql/example-cpp-db/working/tmp//semmle_7_49104_322069 -quiet -dumpbase semmle_7_49104_322069 -mtune=generic -march=x86-64 -auxbase semmle_7_49104_322069 -version -fsyntax-only -o /dev/null
+[E 12:37:40 49136] Not a compiler; exiting. Reason: 
+[T 12:37:40 49134] Extractor terminated with exit code 0.
+[T 12:37:40 49137] Attempting to switch stdout/stderr to 5...
+[T 12:37:40 49137] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[E 12:37:40 49137] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:40 49137] Current directory: /scratch/queryLang/example-cpp-project-master
+[E 12:37:40 49137] Command: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --mimic '/usr/bin/g++' -x 'c++' -v -fsyntax-only /scratch/queryLang/codeql/example-cpp-db/working/tmp//semmle_7_49104_322069
+[E 12:37:40 49137] Within classification loop; exiting.
+[T 12:37:40 49132] Extractor terminated with exit code 0.
+[T 12:37:40 49138] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49138] ==== Candidate to intercept: /usr/bin/g++ (canonical: /usr/bin/g++) ====
+[T 12:37:40 49138] === Intercepted call to /usr/bin/g++ === 
+[T 12:37:40 49140] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49140] ==== Candidate to intercept: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1plus (canonical: /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus) ====
+[T 12:37:40 49140] === Intercepted call to /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus === 
+[T 12:37:40 49142] Attempting to switch stdout/stderr to 5...
+[T 12:37:40 49142] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[E 12:37:40 49142] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:40 49142] Current directory: /scratch/queryLang/example-cpp-project-master
+[E 12:37:40 49142] Command: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --mimic /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus -E -quiet -D_GNU_SOURCE /scratch/queryLang/codeql/example-cpp-db/working/tmp//semmle_8_49104_336030 -mtune=generic -march=x86-64 -dM
+[E 12:37:40 49142] Not a compiler; exiting. Reason: 
+[T 12:37:40 49140] Extractor terminated with exit code 0.
+[T 12:37:40 49143] Attempting to switch stdout/stderr to 5...
+[T 12:37:40 49143] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[E 12:37:40 49143] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:40 49143] Current directory: /scratch/queryLang/example-cpp-project-master
+[E 12:37:40 49143] Command: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --mimic '/usr/bin/g++' -x 'c++' -E -dM /scratch/queryLang/codeql/example-cpp-db/working/tmp//semmle_8_49104_336030
+[E 12:37:40 49143] Within classification loop; exiting.
+[T 12:37:40 49138] Extractor terminated with exit code 0.
+[T 12:37:40 49144] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49144] ==== Candidate to intercept: /usr/bin/g++ (canonical: /usr/bin/g++) ====
+[T 12:37:40 49144] === Intercepted call to /usr/bin/g++ === 
+[T 12:37:40 49146] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49146] ==== Candidate to intercept: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1plus (canonical: /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus) ====
+[T 12:37:40 49146] === Intercepted call to /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus === 
+[T 12:37:40 49148] Attempting to switch stdout/stderr to 5...
+[T 12:37:40 49148] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[E 12:37:40 49148] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:40 49148] Current directory: /scratch/queryLang/example-cpp-project-master
+[E 12:37:40 49148] Command: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --mimic /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus -quiet -D_GNU_SOURCE /scratch/queryLang/codeql/example-cpp-db/working/tmp//semmle_9_49104_345342.h -quiet -dumpbase semmle_9_49104_345342.h -mtune=generic -march=x86-64 -auxbase semmle_9_49104_345342 -Wreturn-type -fmax-errors=0 -o /tmp/ccxw8Tj1.s --output-pch= /scratch/queryLang/codeql/example-cpp-db/working/tmp//semmle_9_49104_345342.h.gch
+[E 12:37:40 49148] Not a compiler; exiting. Reason: --version stdout was:
+[T 12:37:40 49146] Extractor terminated with exit code 0.
+[T 12:37:40 49149] Attempting to switch stdout/stderr to 5...
+[T 12:37:40 49149] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[E 12:37:40 49149] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:40 49149] Current directory: /scratch/queryLang/example-cpp-project-master
+[E 12:37:40 49149] Command: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --mimic '/usr/bin/g++' -x 'c++-header' -fmax-errors=0 -Wreturn-type -o /scratch/queryLang/codeql/example-cpp-db/working/tmp//semmle_9_49104_345342.h.gch /scratch/queryLang/codeql/example-cpp-db/working/tmp//semmle_9_49104_345342.h
+[E 12:37:40 49149] Within classification loop; exiting.
+[T 12:37:40 49144] Extractor terminated with exit code 0.
+[T 12:37:40 49150] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49150] ==== Candidate to intercept: /usr/bin/g++ (canonical: /usr/bin/g++) ====
+[T 12:37:40 49150] === Intercepted call to /usr/bin/g++ === 
+[T 12:37:40 49152] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49152] ==== Candidate to intercept: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1plus (canonical: /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus) ====
+[T 12:37:40 49152] === Intercepted call to /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus === 
+[T 12:37:40 49154] Attempting to switch stdout/stderr to 5...
+[T 12:37:40 49154] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[E 12:37:40 49154] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:40 49154] Current directory: /scratch/queryLang/example-cpp-project-master
+[E 12:37:40 49154] Command: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --mimic /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus -quiet -D_GNU_SOURCE - -quiet -dumpbase - -mtune=generic -march=x86-64 -auxbase - -Wreturn-type -fmax-errors=0 -o /tmp/ccneNJI3.s
+[E 12:37:40 49154] Not a compiler; exiting. Reason: 
+[T 12:37:40 49152] Extractor terminated with exit code 0.
+[T 12:37:40 49155] Attempting to switch stdout/stderr to 5...
+[T 12:37:40 49155] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[E 12:37:40 49155] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:40 49155] Current directory: /scratch/queryLang/example-cpp-project-master
+[E 12:37:40 49155] Command: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --mimic '/usr/bin/g++' -x 'c++' -fmax-errors=0 -Wreturn-type -o /scratch/queryLang/codeql/example-cpp-db/working/tmp//semmle_9_49104_345342.h.gch -
+[E 12:37:40 49155] Within classification loop; exiting.
+[T 12:37:40 49150] Extractor terminated with exit code 0.
+Warning: Failed to find information about possible built-in _Exit
+Warning: Failed to find information about possible built-in _Pragma
+Warning: Failed to find information about possible built-in _Unwind_Resume
+Warning: Failed to find information about possible built-in _Unwind_SjLj_Register
+Warning: Failed to find information about possible built-in _Unwind_SjLj_Unregister
+Warning: Failed to find information about possible built-in __array_type_info
+Warning: Failed to find information about possible built-in __array_type_info_pseudo
+Warning: Failed to find information about possible built-in __base_class_type_info_pseudo
+Warning: Failed to find information about possible built-in __class_type_info
+Warning: Failed to find information about possible built-in __class_type_info_pseudo
+Warning: Failed to find information about possible built-in __cxa_pure_virtual
+Warning: Failed to find information about possible built-in __cxxabiv1
+Warning: Failed to find information about possible built-in __delta
+Warning: Failed to find information about possible built-in __enum_type_info
+Warning: Failed to find information about possible built-in __enum_type_info_pseudo
+Warning: Failed to find information about possible built-in __fprintf_chk
+Warning: Failed to find information about possible built-in __function_type_info
+Warning: Failed to find information about possible built-in __function_type_info_pseudo
+Warning: Failed to find information about possible built-in __fundamental_type_info
+Warning: Failed to find information about possible built-in __fundamental_type_info_pseudo
+Warning: Failed to find information about possible built-in __in_chrg
+Warning: Failed to find information about possible built-in __java_boolean
+Warning: Failed to find information about possible built-in __java_byte
+Warning: Failed to find information about possible built-in __java_char
+Warning: Failed to find information about possible built-in __java_double
+Warning: Failed to find information about possible built-in __java_float
+Warning: Failed to find information about possible built-in __java_int
+Warning: Failed to find information about possible built-in __java_long
+Warning: Failed to find information about possible built-in __java_short
+Warning: Failed to find information about possible built-in __memcpy_chk
+Warning: Failed to find information about possible built-in __memmove_chk
+Warning: Failed to find information about possible built-in __mempcpy_chk
+Warning: Failed to find information about possible built-in __memset_chk
+Warning: Failed to find information about possible built-in __pfn
+Warning: Failed to find information about possible built-in __pointer_to_member_type_info
+Warning: Failed to find information about possible built-in __pointer_to_member_type_info_pseudo
+Warning: Failed to find information about possible built-in __pointer_type_info
+Warning: Failed to find information about possible built-in __pointer_type_info_pseudo
+Warning: Failed to find information about possible built-in __printf_chk
+Warning: Failed to find information about possible built-in __setbits
+Warning: Failed to find information about possible built-in __si_class_type_info
+Warning: Failed to find information about possible built-in __si_class_type_info_pseudo
+Warning: Failed to find information about possible built-in __snprintf_chk
+Warning: Failed to find information about possible built-in __sprintf_chk
+Warning: Failed to find information about possible built-in __stpcpy_chk
+Warning: Failed to find information about possible built-in __stpncpy_chk
+Warning: Failed to find information about possible built-in __strcat_chk
+Warning: Failed to find information about possible built-in __strcpy_chk
+Warning: Failed to find information about possible built-in __strncat_chk
+Warning: Failed to find information about possible built-in __strncpy_chk
+Warning: Failed to find information about possible built-in __type_info_pseudo
+Warning: Failed to find information about possible built-in __vfprintf_chk
+Warning: Failed to find information about possible built-in __vprintf_chk
+Warning: Failed to find information about possible built-in __vsnprintf_chk
+Warning: Failed to find information about possible built-in __vsprintf_chk
+Warning: Failed to find information about possible built-in __vtbl_ptr_type
+Warning: Failed to find information about possible built-in __vtt_parm
+Warning: Failed to find information about possible built-in _exit
+Warning: Failed to find information about possible built-in _vptr
+Warning: Ignored 59 possible built-ins
+[T 12:37:40 49156] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49156] ==== Candidate to intercept: /usr/bin/g++ (canonical: /usr/bin/g++) ====
+[T 12:37:40 49156] === Intercepted call to /usr/bin/g++ === 
+[T 12:37:40 49158] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49158] ==== Candidate to intercept: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1plus (canonical: /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus) ====
+[T 12:37:40 49158] === Intercepted call to /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus === 
+[T 12:37:40 49160] Attempting to switch stdout/stderr to 5...
+[T 12:37:40 49160] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[E 12:37:40 49160] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:40 49160] Current directory: /scratch/queryLang/example-cpp-project-master
+[E 12:37:40 49160] Command: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --mimic /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus -quiet -D_GNU_SOURCE /scratch/queryLang/codeql/example-cpp-db/working/tmp//semmle_11_49104_464978.c -quiet -dumpbase semmle_11_49104_464978.c -mtune=generic -march=x86-64 -auxbase-strip /scratch/queryLang/codeql/example-cpp-db/working/tmp//semmle_12_49104_465005.o -o /tmp/cclLgvHc.s
+[E 12:37:40 49160] Not a compiler; exiting. Reason: 
+[T 12:37:40 49158] Extractor terminated with exit code 0.
+[T 12:37:40 49161] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49161] ==== Candidate to intercept: as (canonical: as) ====
+[T 12:37:40 49161] Will try to resolve as in path /usr/lib64/qt-3.3/bin:/users/xiaoxinz/perl5/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/ucb:/bin:/usr/bin:/opt/puppetlabs/bin.
+[T 12:37:40 49161]  -> path lookup for as as /usr/lib64/qt-3.3/bin/as...
+[T 12:37:40 49161]  -> path lookup for as as /users/xiaoxinz/perl5/bin/as...
+[T 12:37:40 49161]  -> path lookup for as as /usr/local/bin/as...
+[T 12:37:40 49161]  -> path lookup for as as /usr/bin/as...
+[T 12:37:40 49161] ==== Candidate to intercept: /usr/bin/as (canonical: /usr/bin/as) ====
+[T 12:37:40 49161] Pathname resolved to /usr/bin/as, which does not match a compiler.
+[T 12:37:40 49162] Attempting to switch stdout/stderr to 5...
+[T 12:37:40 49162] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[E 12:37:40 49162] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:40 49162] Current directory: /scratch/queryLang/example-cpp-project-master
+[E 12:37:40 49162] Command: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --mimic '/usr/bin/g++' -x 'c++' -o /scratch/queryLang/codeql/example-cpp-db/working/tmp//semmle_12_49104_465005.o -c /scratch/queryLang/codeql/example-cpp-db/working/tmp//semmle_11_49104_464978.c
+[E 12:37:40 49162] Within classification loop; exiting.
+[T 12:37:40 49156] Extractor terminated with exit code 0.
+[E 12:37:40 49104] Processed command line: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --trapfolder /scratch/queryLang/codeql/example-cpp-db/trap/cpp --src_archive /scratch/queryLang/codeql/example-cpp-db/src --mimic_config /scratch/queryLang/codeql/example-cpp-db/working/compiler_mimic_cache/cc9728eab5e5 --object_filename Polygon.o -w --error_limit 1000 --disable_system_macros --variadic_macros '--g++' --gnu_version 40805 --builtin_functions_file /scratch/queryLang/codeql/example-cpp-db/working/compiler_mimic_cache/builtins_ee219abb772c --target linux_x86_64 '-D__DBL_MIN_EXP__=(-1021)' -D__UINT_LEAST16_MAX__=65535 -D__ATOMIC_ACQUIRE=2 -D__FLT_MIN__=1.17549435082228750797e-38F '-D__UINT_LEAST8_TYPE__=unsigned char' '-D__INTMAX_C(c)=c ## L' -D__CHAR_BIT__=8 -D__UINT8_MAX__=255 -D__WINT_MAX__=4294967295U -D__ORDER_LITTLE_ENDIAN__=1234 -D__SIZE_MAX__=18446744073709551615UL -D__WCHAR_MAX__=2147483647 -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1=1 -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_2=1 -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_4=1 '-D__DBL_DENORM_MIN__=double(4.94065645841246544177e-324L)' -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_8=1 -D__GCC_ATOMIC_CHAR_LOCK_FREE=2 -D__FLT_EVAL_METHOD__=0 -D__unix__=1 -D__GCC_ATOMIC_CHAR32_T_LOCK_FREE=2 -D__x86_64=1 -D__UINT_FAST64_MAX__=18446744073709551615UL -D__SIG_ATOMIC_TYPE__=int '-D__DBL_MIN_10_EXP__=(-307)' -D__FINITE_MATH_ONLY__=0 -D__UINT_FAST8_MAX__=255 -D__DEC64_MAX_EXP__=385 '-D__INT8_C(c)=c' -D__UINT_LEAST64_MAX__=18446744073709551615UL -D__SHRT_MAX__=32767 '-D__LDBL_MAX__=1.18973149535723176502e+4932L' -D__UINT_LEAST8_MAX__=255 -D__GCC_ATOMIC_BOOL_LOCK_FREE=2 '-D__UINTMAX_TYPE__=long unsigned int' -D__linux=1 -D__DEC32_EPSILON__=1E-6DF -D__unix=1 -D__UINT32_MAX__=4294967295U -D__LDBL_MAX_EXP__=16384 -D__WINT_MIN__=0U -D__linux__=1 -D__SCHAR_MAX__=127 '-D__WCHAR_MIN__=(-__WCHAR_MAX__ - 1)' '-D__INT64_C(c)=c ## L' -D__DBL_DIG__=15 -D__GCC_ATOMIC_POINTER_LOCK_FREE=2 -D__SIZEOF_INT__=4 -D__SIZEOF_POINTER__=8 -D__GCC_ATOMIC_CHAR16_T_LOCK_FREE=2 -D__USER_LABEL_PREFIX__= -D__LDBL_HAS_INFINITY__=1 -D__FLT_EPSILON__=1.19209289550781250000e-7F -D__GXX_WEAK__=1 -D__LDBL_MIN__=3.36210314311209350626e-4932L -D__DEC32_MAX__=9.999999E96DF -D__INT32_MAX__=2147483647 -D__SIZEOF_LONG__=8 -D__STDC_IEC_559__=1 -D__STDC_ISO_10646__=201103L '-D__UINT16_C(c)=c' -D__DECIMAL_DIG__=21 -D__gnu_linux__=1 -D__LDBL_HAS_QUIET_NAN__=1 -D__GXX_RTTI=1 -D__MMX__=1 -D__FLT_HAS_DENORM__=1 -D__SIZEOF_LONG_DOUBLE__=16 -D__BIGGEST_ALIGNMENT__=16 '-D__DBL_MAX__=double(1.79769313486231570815e+308L)' -D__INT_FAST32_MAX__=9223372036854775807L -D__DBL_HAS_INFINITY__=1 -D__INT64_MAX__=9223372036854775807L '-D__DEC32_MIN_EXP__=(-94)' '-D__INT_FAST16_TYPE__=long int' -D__LDBL_HAS_DENORM__=1 -D__DEC128_MAX__=9.999999999999999999999999999999999E6144DL -D__INT_LEAST32_MAX__=2147483647 -D__DEC32_MIN__=1E-95DF -D__DEPRECATED=1 -D__DBL_MAX_EXP__=1024 -D__DEC128_EPSILON__=1E-33DL -D__SSE2_MATH__=1 -D__ATOMIC_HLE_RELEASE=131072 -D__PTRDIFF_MAX__=9223372036854775807L -D__amd64=1 -D__STDC_NO_THREADS__=1 -D__ATOMIC_HLE_ACQUIRE=65536 -D__LONG_LONG_MAX__=9223372036854775807LL -D__SIZEOF_SIZE_T__=8 -D__SIZEOF_WINT_T__=4 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -D__GXX_ABI_VERSION=1002 '-D__FLT_MIN_EXP__=(-125)' '-D__INT_FAST64_TYPE__=long int' '-D__DBL_MIN__=double(2.22507385850720138309e-308L)' -D__LP64__=1 -D__DECIMAL_BID_FORMAT__=1 -D__DEC128_MIN__=1E-6143DL -D__REGISTER_PREFIX__= -D__UINT16_MAX__=65535 -D__DBL_HAS_DENORM__=1 '-D__UINT8_TYPE__=unsigned char' -D__NO_INLINE__=1 -D__FLT_MANT_DIG__=24 '-D__UINT64_C(c)=c ## UL' -D_STDC_PREDEF_H=1 -D__GCC_ATOMIC_INT_LOCK_FREE=2 -D__FLOAT_WORD_ORDER__=__ORDER_LITTLE_ENDIAN__ -D__STDC_IEC_559_COMPLEX__=1 '-D__INT32_C(c)=c' -D__DEC64_EPSILON__=1E-15DD -D__ORDER_PDP_ENDIAN__=3412 '-D__DEC128_MIN_EXP__=(-6142)' '-D__INT_FAST32_TYPE__=long int' '-D__UINT_LEAST16_TYPE__=short unsigned int' -Dunix=1 -D__INT16_MAX__=32767 '-D__SIZE_TYPE__=long unsigned int' -D__UINT64_MAX__=18446744073709551615UL '-D__INT8_TYPE__=signed char' -D__ELF__=1 -D__FLT_RADIX__=2 '-D__INT_LEAST16_TYPE__=short int' -D__LDBL_EPSILON__=1.08420217248550443401e-19L '-D__UINTMAX_C(c)=c ## UL' -D__GNUC_RH_RELEASE__=39 -D__k8=1 -D__SIG_ATOMIC_MAX__=2147483647 -D__GCC_ATOMIC_WCHAR_T_LOCK_FREE=2 -D__SIZEOF_PTRDIFF_T__=8 -D__x86_64__=1 -D__DEC32_SUBNORMAL_MIN__=0.000001E-95DF -D__INT_FAST16_MAX__=9223372036854775807L -D__UINT_FAST32_MAX__=18446744073709551615UL '-D__UINT_LEAST64_TYPE__=long unsigned int' -D__FLT_HAS_QUIET_NAN__=1 -D__FLT_MAX_10_EXP__=38 -D__LONG_MAX__=9223372036854775807L -D__DEC128_SUBNORMAL_MIN__=0.000000000000000000000000000000001E-6143DL -D__FLT_HAS_INFINITY__=1 '-D__UINT_FAST16_TYPE__=long unsigned int' -D__DEC64_MAX__=9.999999999999999E384DD -D__PRAGMA_REDEFINE_EXTNAME=1 -D__INT_LEAST16_MAX__=32767 -D__DEC64_MANT_DIG__=16 -D__UINT_LEAST32_MAX__=4294967295U -D__GCC_ATOMIC_LONG_LOCK_FREE=2 '-D__INT_LEAST64_TYPE__=long int' '-D__INT16_TYPE__=short int' '-D__INT_LEAST8_TYPE__=signed char' -D__DEC32_MAX_EXP__=97 -D__INT_FAST8_MAX__=127 -D__INTPTR_MAX__=9223372036854775807L -Dlinux=1 -D__SSE2__=1 -D__EXCEPTIONS=1 -D__LDBL_MANT_DIG__=64 -D__DBL_HAS_QUIET_NAN__=1 '-D__SIG_ATOMIC_MIN__=(-__SIG_ATOMIC_MAX__ - 1)' -D__code_model_small__=1 -D__k8__=1 '-D__INTPTR_TYPE__=long int' '-D__UINT16_TYPE__=short unsigned int' -D__WCHAR_TYPE__=int -D__SIZEOF_FLOAT__=4 -D__UINTPTR_MAX__=18446744073709551615UL '-D__DEC64_MIN_EXP__=(-382)' -D__INT_FAST64_MAX__=9223372036854775807L -D__GCC_ATOMIC_TEST_AND_SET_TRUEVAL=1 -D__FLT_DIG__=6 '-D__UINT_FAST64_TYPE__=long unsigned int' -D__INT_MAX__=2147483647 -D__amd64__=1 '-D__INT64_TYPE__=long int' -D__FLT_MAX_EXP__=128 -D__ORDER_BIG_ENDIAN__=4321 -D__DBL_MANT_DIG__=53 -D__INT_LEAST64_MAX__=9223372036854775807L -D__DEC64_MIN__=1E-383DD '-D__WINT_TYPE__=unsigned int' '-D__UINT_LEAST32_TYPE__=unsigned int' -D__SIZEOF_SHORT__=2 -D__SSE__=1 '-D__LDBL_MIN_EXP__=(-16381)' -D__INT_LEAST8_MAX__=127 -D__SIZEOF_INT128__=16 -D__LDBL_MAX_10_EXP__=4932 -D__ATOMIC_RELAXED=0 '-D__DBL_EPSILON__=double(2.22044604925031308085e-16L)' -D_LP64=1 '-D__UINT8_C(c)=c' -D__INT_LEAST32_TYPE__=int -D__SIZEOF_WCHAR_T__=4 '-D__UINT64_TYPE__=long unsigned int' '-D__INT_FAST8_TYPE__=signed char' -D__DBL_DECIMAL_DIG__=17 -D__FXSR__=1 -D__DEC_EVAL_METHOD__=2 '-D__UINT32_C(c)=c ## U' -D__INTMAX_MAX__=9223372036854775807L -D__BYTE_ORDER__=__ORDER_LITTLE_ENDIAN__ -D__FLT_DENORM_MIN__=1.40129846432481707092e-45F -D__INT8_MAX__=127 '-D__UINT_FAST32_TYPE__=long unsigned int' '-D__FLT_MAX__=3.40282346638528859812e+38F' -D__INT32_TYPE__=int -D__SIZEOF_DOUBLE__=8 '-D__INTMAX_TYPE__=long int' -D__DEC128_MAX_EXP__=6145 -D__ATOMIC_CONSUME=1 -D__UINTMAX_MAX__=18446744073709551615UL -D__DEC32_MANT_DIG__=7 -D__DBL_MAX_10_EXP__=308 -D__LDBL_DENORM_MIN__=3.64519953188247460253e-4951L '-D__INT16_C(c)=c' '-D__PTRDIFF_TYPE__=long int' -D__ATOMIC_SEQ_CST=5 '-D__UINT32_TYPE__=unsigned int' '-D__UINTPTR_TYPE__=long unsigned int' -D__DEC64_SUBNORMAL_MIN__=0.000000000000001E-383DD -D__DEC128_MANT_DIG__=34 '-D__LDBL_MIN_10_EXP__=(-4931)' -D__SSE_MATH__=1 -D__SIZEOF_LONG_LONG__=8 -D__GCC_ATOMIC_LLONG_LOCK_FREE=2 -D__LDBL_DIG__=18 -D__FLT_DECIMAL_DIG__=9 -D__UINT_FAST16_MAX__=18446744073709551615UL '-D__FLT_MIN_10_EXP__=(-37)' -D__GCC_ATOMIC_SHORT_LOCK_FREE=2 '-D__UINT_FAST8_TYPE__=unsigned char' -D_GNU_SOURCE=1 -D__ATOMIC_ACQ_REL=4 -D__ATOMIC_RELEASE=3 '-I/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5' '-I/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux' '-I/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward' -I/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include -I/usr/local/include -I/usr/include -- Polygon.cpp
+[E 12:37:40 49104] Starting compilation TRAP /scratch/queryLang/codeql/example-cpp-db/trap/cpp/compilations/34/46965895_0.trap.br
+[E 12:37:40 49104] Archiving /scratch/queryLang/codeql/example-cpp-db/src/scratch/queryLang/example-cpp-project-master/Polygon.cpp
+[E 12:37:40 49104] Archiving /scratch/queryLang/codeql/example-cpp-db/src/scratch/queryLang/example-cpp-project-master/Polygon.hpp
+[E 12:37:40 49104] Creating trap tarball /scratch/queryLang/codeql/example-cpp-db/trap/cpp/tarballs/scratch/queryLang/example-cpp-project-master/Polygon.cpp.1aa0b5e3_0.trap.tar.br
+[E 12:37:40 49104] Emitting trap files for Polygon.cpp
+[E 12:37:40 49104] Opening existencedb in /scratch/queryLang/codeql/example-cpp-db/working/existencedb/db
+[E 12:37:40 49104] Wrote 3 files to /scratch/queryLang/codeql/example-cpp-db/trap/cpp/tarballs/scratch/queryLang/example-cpp-project-master/Polygon.cpp.1aa0b5e3_0.trap.tar.br
+[E 12:37:40 49104] Finished compilation TRAP /scratch/queryLang/codeql/example-cpp-db/trap/cpp/compilations/34/46965895_0.trap.br
+[T 12:37:40 49092] Extractor terminated with exit code 0.
+[T 12:37:40 49163] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49163] ==== Candidate to intercept: g++ (canonical: g++) ====
+[T 12:37:40 49163] Will try to resolve g++ in path /usr/lib64/qt-3.3/bin:/users/xiaoxinz/perl5/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/ucb:/bin:/usr/bin:/opt/puppetlabs/bin.
+[T 12:37:40 49163]  -> path lookup for g++ as /usr/lib64/qt-3.3/bin/g++...
+[T 12:37:40 49163]  -> path lookup for g++ as /users/xiaoxinz/perl5/bin/g++...
+[T 12:37:40 49163]  -> path lookup for g++ as /usr/local/bin/g++...
+[T 12:37:40 49163]  -> path lookup for g++ as /usr/bin/g++...
+[T 12:37:40 49163] ==== Candidate to intercept: /usr/bin/g++ (canonical: /usr/bin/g++) ====
+[T 12:37:40 49163] === Intercepted call to /usr/bin/g++ === 
+[T 12:37:40 49163] Resolved barename g++ to /usr/bin/g++, which matched **/*++*...
+[T 12:37:40 49165] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49165] ==== Candidate to intercept: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1plus (canonical: /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus) ====
+[T 12:37:40 49165] === Intercepted call to /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus === 
+[T 12:37:40 49167] Attempting to switch stdout/stderr to 3...
+[T 12:37:40 49167] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[E 12:37:40 49167] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:40 49167] Current directory: /scratch/queryLang/example-cpp-project-master
+[E 12:37:40 49167] Command: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --mimic /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus -quiet -D_GNU_SOURCE Rectangle.cpp -quiet -dumpbase Rectangle.cpp -mtune=generic -march=x86-64 -auxbase-strip Rectangle.o -o /tmp/cc0IZ1Se.s
+[E 12:37:40 49167] Not a compiler; exiting. Reason: 
+[T 12:37:40 49165] Extractor terminated with exit code 0.
+[T 12:37:40 49168] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49168] ==== Candidate to intercept: as (canonical: as) ====
+[T 12:37:40 49168] Will try to resolve as in path /usr/lib64/qt-3.3/bin:/users/xiaoxinz/perl5/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/ucb:/bin:/usr/bin:/opt/puppetlabs/bin.
+[T 12:37:40 49168]  -> path lookup for as as /usr/lib64/qt-3.3/bin/as...
+[T 12:37:40 49168]  -> path lookup for as as /users/xiaoxinz/perl5/bin/as...
+[T 12:37:40 49168]  -> path lookup for as as /usr/local/bin/as...
+[T 12:37:40 49168]  -> path lookup for as as /usr/bin/as...
+[T 12:37:40 49168] ==== Candidate to intercept: /usr/bin/as (canonical: /usr/bin/as) ====
+[T 12:37:40 49168] Pathname resolved to /usr/bin/as, which does not match a compiler.
+[T 12:37:40 49169] Attempting to switch stdout/stderr to 3...
+[T 12:37:40 49169] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[E 12:37:40 49169] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:40 49169] Current directory: /scratch/queryLang/example-cpp-project-master
+[E 12:37:40 49169] Command: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --mimic '/usr/bin/g++' -c Rectangle.cpp -o Rectangle.o
+[E 12:37:40 49169] Processed command line: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --trapfolder /scratch/queryLang/codeql/example-cpp-db/trap/cpp --src_archive /scratch/queryLang/codeql/example-cpp-db/src --mimic_config /scratch/queryLang/codeql/example-cpp-db/working/compiler_mimic_cache/cc9728eab5e5 --object_filename Rectangle.o -w --error_limit 1000 --disable_system_macros --variadic_macros '--g++' --gnu_version 40805 --builtin_functions_file /scratch/queryLang/codeql/example-cpp-db/working/compiler_mimic_cache/builtins_ee219abb772c --target linux_x86_64 '-D__DBL_MIN_EXP__=(-1021)' -D__UINT_LEAST16_MAX__=65535 -D__ATOMIC_ACQUIRE=2 -D__FLT_MIN__=1.17549435082228750797e-38F '-D__UINT_LEAST8_TYPE__=unsigned char' '-D__INTMAX_C(c)=c ## L' -D__CHAR_BIT__=8 -D__UINT8_MAX__=255 -D__WINT_MAX__=4294967295U -D__ORDER_LITTLE_ENDIAN__=1234 -D__SIZE_MAX__=18446744073709551615UL -D__WCHAR_MAX__=2147483647 -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1=1 -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_2=1 -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_4=1 '-D__DBL_DENORM_MIN__=double(4.94065645841246544177e-324L)' -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_8=1 -D__GCC_ATOMIC_CHAR_LOCK_FREE=2 -D__FLT_EVAL_METHOD__=0 -D__unix__=1 -D__GCC_ATOMIC_CHAR32_T_LOCK_FREE=2 -D__x86_64=1 -D__UINT_FAST64_MAX__=18446744073709551615UL -D__SIG_ATOMIC_TYPE__=int '-D__DBL_MIN_10_EXP__=(-307)' -D__FINITE_MATH_ONLY__=0 -D__UINT_FAST8_MAX__=255 -D__DEC64_MAX_EXP__=385 '-D__INT8_C(c)=c' -D__UINT_LEAST64_MAX__=18446744073709551615UL -D__SHRT_MAX__=32767 '-D__LDBL_MAX__=1.18973149535723176502e+4932L' -D__UINT_LEAST8_MAX__=255 -D__GCC_ATOMIC_BOOL_LOCK_FREE=2 '-D__UINTMAX_TYPE__=long unsigned int' -D__linux=1 -D__DEC32_EPSILON__=1E-6DF -D__unix=1 -D__UINT32_MAX__=4294967295U -D__LDBL_MAX_EXP__=16384 -D__WINT_MIN__=0U -D__linux__=1 -D__SCHAR_MAX__=127 '-D__WCHAR_MIN__=(-__WCHAR_MAX__ - 1)' '-D__INT64_C(c)=c ## L' -D__DBL_DIG__=15 -D__GCC_ATOMIC_POINTER_LOCK_FREE=2 -D__SIZEOF_INT__=4 -D__SIZEOF_POINTER__=8 -D__GCC_ATOMIC_CHAR16_T_LOCK_FREE=2 -D__USER_LABEL_PREFIX__= -D__LDBL_HAS_INFINITY__=1 -D__FLT_EPSILON__=1.19209289550781250000e-7F -D__GXX_WEAK__=1 -D__LDBL_MIN__=3.36210314311209350626e-4932L -D__DEC32_MAX__=9.999999E96DF -D__INT32_MAX__=2147483647 -D__SIZEOF_LONG__=8 -D__STDC_IEC_559__=1 -D__STDC_ISO_10646__=201103L '-D__UINT16_C(c)=c' -D__DECIMAL_DIG__=21 -D__gnu_linux__=1 -D__LDBL_HAS_QUIET_NAN__=1 -D__GXX_RTTI=1 -D__MMX__=1 -D__FLT_HAS_DENORM__=1 -D__SIZEOF_LONG_DOUBLE__=16 -D__BIGGEST_ALIGNMENT__=16 '-D__DBL_MAX__=double(1.79769313486231570815e+308L)' -D__INT_FAST32_MAX__=9223372036854775807L -D__DBL_HAS_INFINITY__=1 -D__INT64_MAX__=9223372036854775807L '-D__DEC32_MIN_EXP__=(-94)' '-D__INT_FAST16_TYPE__=long int' -D__LDBL_HAS_DENORM__=1 -D__DEC128_MAX__=9.999999999999999999999999999999999E6144DL -D__INT_LEAST32_MAX__=2147483647 -D__DEC32_MIN__=1E-95DF -D__DEPRECATED=1 -D__DBL_MAX_EXP__=1024 -D__DEC128_EPSILON__=1E-33DL -D__SSE2_MATH__=1 -D__ATOMIC_HLE_RELEASE=131072 -D__PTRDIFF_MAX__=9223372036854775807L -D__amd64=1 -D__STDC_NO_THREADS__=1 -D__ATOMIC_HLE_ACQUIRE=65536 -D__LONG_LONG_MAX__=9223372036854775807LL -D__SIZEOF_SIZE_T__=8 -D__SIZEOF_WINT_T__=4 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -D__GXX_ABI_VERSION=1002 '-D__FLT_MIN_EXP__=(-125)' '-D__INT_FAST64_TYPE__=long int' '-D__DBL_MIN__=double(2.22507385850720138309e-308L)' -D__LP64__=1 -D__DECIMAL_BID_FORMAT__=1 -D__DEC128_MIN__=1E-6143DL -D__REGISTER_PREFIX__= -D__UINT16_MAX__=65535 -D__DBL_HAS_DENORM__=1 '-D__UINT8_TYPE__=unsigned char' -D__NO_INLINE__=1 -D__FLT_MANT_DIG__=24 '-D__UINT64_C(c)=c ## UL' -D_STDC_PREDEF_H=1 -D__GCC_ATOMIC_INT_LOCK_FREE=2 -D__FLOAT_WORD_ORDER__=__ORDER_LITTLE_ENDIAN__ -D__STDC_IEC_559_COMPLEX__=1 '-D__INT32_C(c)=c' -D__DEC64_EPSILON__=1E-15DD -D__ORDER_PDP_ENDIAN__=3412 '-D__DEC128_MIN_EXP__=(-6142)' '-D__INT_FAST32_TYPE__=long int' '-D__UINT_LEAST16_TYPE__=short unsigned int' -Dunix=1 -D__INT16_MAX__=32767 '-D__SIZE_TYPE__=long unsigned int' -D__UINT64_MAX__=18446744073709551615UL '-D__INT8_TYPE__=signed char' -D__ELF__=1 -D__FLT_RADIX__=2 '-D__INT_LEAST16_TYPE__=short int' -D__LDBL_EPSILON__=1.08420217248550443401e-19L '-D__UINTMAX_C(c)=c ## UL' -D__GNUC_RH_RELEASE__=39 -D__k8=1 -D__SIG_ATOMIC_MAX__=2147483647 -D__GCC_ATOMIC_WCHAR_T_LOCK_FREE=2 -D__SIZEOF_PTRDIFF_T__=8 -D__x86_64__=1 -D__DEC32_SUBNORMAL_MIN__=0.000001E-95DF -D__INT_FAST16_MAX__=9223372036854775807L -D__UINT_FAST32_MAX__=18446744073709551615UL '-D__UINT_LEAST64_TYPE__=long unsigned int' -D__FLT_HAS_QUIET_NAN__=1 -D__FLT_MAX_10_EXP__=38 -D__LONG_MAX__=9223372036854775807L -D__DEC128_SUBNORMAL_MIN__=0.000000000000000000000000000000001E-6143DL -D__FLT_HAS_INFINITY__=1 '-D__UINT_FAST16_TYPE__=long unsigned int' -D__DEC64_MAX__=9.999999999999999E384DD -D__PRAGMA_REDEFINE_EXTNAME=1 -D__INT_LEAST16_MAX__=32767 -D__DEC64_MANT_DIG__=16 -D__UINT_LEAST32_MAX__=4294967295U -D__GCC_ATOMIC_LONG_LOCK_FREE=2 '-D__INT_LEAST64_TYPE__=long int' '-D__INT16_TYPE__=short int' '-D__INT_LEAST8_TYPE__=signed char' -D__DEC32_MAX_EXP__=97 -D__INT_FAST8_MAX__=127 -D__INTPTR_MAX__=9223372036854775807L -Dlinux=1 -D__SSE2__=1 -D__EXCEPTIONS=1 -D__LDBL_MANT_DIG__=64 -D__DBL_HAS_QUIET_NAN__=1 '-D__SIG_ATOMIC_MIN__=(-__SIG_ATOMIC_MAX__ - 1)' -D__code_model_small__=1 -D__k8__=1 '-D__INTPTR_TYPE__=long int' '-D__UINT16_TYPE__=short unsigned int' -D__WCHAR_TYPE__=int -D__SIZEOF_FLOAT__=4 -D__UINTPTR_MAX__=18446744073709551615UL '-D__DEC64_MIN_EXP__=(-382)' -D__INT_FAST64_MAX__=9223372036854775807L -D__GCC_ATOMIC_TEST_AND_SET_TRUEVAL=1 -D__FLT_DIG__=6 '-D__UINT_FAST64_TYPE__=long unsigned int' -D__INT_MAX__=2147483647 -D__amd64__=1 '-D__INT64_TYPE__=long int' -D__FLT_MAX_EXP__=128 -D__ORDER_BIG_ENDIAN__=4321 -D__DBL_MANT_DIG__=53 -D__INT_LEAST64_MAX__=9223372036854775807L -D__DEC64_MIN__=1E-383DD '-D__WINT_TYPE__=unsigned int' '-D__UINT_LEAST32_TYPE__=unsigned int' -D__SIZEOF_SHORT__=2 -D__SSE__=1 '-D__LDBL_MIN_EXP__=(-16381)' -D__INT_LEAST8_MAX__=127 -D__SIZEOF_INT128__=16 -D__LDBL_MAX_10_EXP__=4932 -D__ATOMIC_RELAXED=0 '-D__DBL_EPSILON__=double(2.22044604925031308085e-16L)' -D_LP64=1 '-D__UINT8_C(c)=c' -D__INT_LEAST32_TYPE__=int -D__SIZEOF_WCHAR_T__=4 '-D__UINT64_TYPE__=long unsigned int' '-D__INT_FAST8_TYPE__=signed char' -D__DBL_DECIMAL_DIG__=17 -D__FXSR__=1 -D__DEC_EVAL_METHOD__=2 '-D__UINT32_C(c)=c ## U' -D__INTMAX_MAX__=9223372036854775807L -D__BYTE_ORDER__=__ORDER_LITTLE_ENDIAN__ -D__FLT_DENORM_MIN__=1.40129846432481707092e-45F -D__INT8_MAX__=127 '-D__UINT_FAST32_TYPE__=long unsigned int' '-D__FLT_MAX__=3.40282346638528859812e+38F' -D__INT32_TYPE__=int -D__SIZEOF_DOUBLE__=8 '-D__INTMAX_TYPE__=long int' -D__DEC128_MAX_EXP__=6145 -D__ATOMIC_CONSUME=1 -D__UINTMAX_MAX__=18446744073709551615UL -D__DEC32_MANT_DIG__=7 -D__DBL_MAX_10_EXP__=308 -D__LDBL_DENORM_MIN__=3.64519953188247460253e-4951L '-D__INT16_C(c)=c' '-D__PTRDIFF_TYPE__=long int' -D__ATOMIC_SEQ_CST=5 '-D__UINT32_TYPE__=unsigned int' '-D__UINTPTR_TYPE__=long unsigned int' -D__DEC64_SUBNORMAL_MIN__=0.000000000000001E-383DD -D__DEC128_MANT_DIG__=34 '-D__LDBL_MIN_10_EXP__=(-4931)' -D__SSE_MATH__=1 -D__SIZEOF_LONG_LONG__=8 -D__GCC_ATOMIC_LLONG_LOCK_FREE=2 -D__LDBL_DIG__=18 -D__FLT_DECIMAL_DIG__=9 -D__UINT_FAST16_MAX__=18446744073709551615UL '-D__FLT_MIN_10_EXP__=(-37)' -D__GCC_ATOMIC_SHORT_LOCK_FREE=2 '-D__UINT_FAST8_TYPE__=unsigned char' -D_GNU_SOURCE=1 -D__ATOMIC_ACQ_REL=4 -D__ATOMIC_RELEASE=3 '-I/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5' '-I/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux' '-I/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward' -I/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include -I/usr/local/include -I/usr/include -- Rectangle.cpp
+[E 12:37:40 49169] Starting compilation TRAP /scratch/queryLang/codeql/example-cpp-db/trap/cpp/compilations/9/8132378_0.trap.br
+[E 12:37:40 49169] Archiving /scratch/queryLang/codeql/example-cpp-db/src/scratch/queryLang/example-cpp-project-master/Rectangle.cpp
+[E 12:37:40 49169] Archiving /scratch/queryLang/codeql/example-cpp-db/src/scratch/queryLang/example-cpp-project-master/Rectangle.hpp
+[E 12:37:40 49169] Already archived /scratch/queryLang/codeql/example-cpp-db/src/scratch/queryLang/example-cpp-project-master/Polygon.hpp
+[E 12:37:40 49169] Creating trap tarball /scratch/queryLang/codeql/example-cpp-db/trap/cpp/tarballs/scratch/queryLang/example-cpp-project-master/Rectangle.cpp.6c769489_0.trap.tar.br
+[E 12:37:40 49169] Emitting trap files for Rectangle.cpp
+[E 12:37:40 49169] Opening existencedb in /scratch/queryLang/codeql/example-cpp-db/working/existencedb/db
+[E 12:37:40 49169] Wrote 2 files to /scratch/queryLang/codeql/example-cpp-db/trap/cpp/tarballs/scratch/queryLang/example-cpp-project-master/Rectangle.cpp.6c769489_0.trap.tar.br
+[E 12:37:40 49169] Finished compilation TRAP /scratch/queryLang/codeql/example-cpp-db/trap/cpp/compilations/9/8132378_0.trap.br
+[T 12:37:40 49163] Extractor terminated with exit code 0.
+[T 12:37:40 49170] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49170] ==== Candidate to intercept: g++ (canonical: g++) ====
+[T 12:37:40 49170] Will try to resolve g++ in path /usr/lib64/qt-3.3/bin:/users/xiaoxinz/perl5/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/ucb:/bin:/usr/bin:/opt/puppetlabs/bin.
+[T 12:37:40 49170]  -> path lookup for g++ as /usr/lib64/qt-3.3/bin/g++...
+[T 12:37:40 49170]  -> path lookup for g++ as /users/xiaoxinz/perl5/bin/g++...
+[T 12:37:40 49170]  -> path lookup for g++ as /usr/local/bin/g++...
+[T 12:37:40 49170]  -> path lookup for g++ as /usr/bin/g++...
+[T 12:37:40 49170] ==== Candidate to intercept: /usr/bin/g++ (canonical: /usr/bin/g++) ====
+[T 12:37:40 49170] === Intercepted call to /usr/bin/g++ === 
+[T 12:37:40 49170] Resolved barename g++ to /usr/bin/g++, which matched **/*++*...
+[T 12:37:40 49172] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49172] ==== Candidate to intercept: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1plus (canonical: /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus) ====
+[T 12:37:40 49172] === Intercepted call to /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus === 
+[T 12:37:40 49174] Attempting to switch stdout/stderr to 3...
+[T 12:37:40 49174] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[E 12:37:40 49174] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:40 49174] Current directory: /scratch/queryLang/example-cpp-project-master
+[E 12:37:40 49174] Command: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --mimic /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus -quiet -D_GNU_SOURCE Triangle.cpp -quiet -dumpbase Triangle.cpp -mtune=generic -march=x86-64 -auxbase-strip Triangle.o -o /tmp/ccXG1kah.s
+[E 12:37:40 49174] Not a compiler; exiting. Reason: 
+[T 12:37:40 49172] Extractor terminated with exit code 0.
+[T 12:37:40 49175] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49175] ==== Candidate to intercept: as (canonical: as) ====
+[T 12:37:40 49175] Will try to resolve as in path /usr/lib64/qt-3.3/bin:/users/xiaoxinz/perl5/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/ucb:/bin:/usr/bin:/opt/puppetlabs/bin.
+[T 12:37:40 49175]  -> path lookup for as as /usr/lib64/qt-3.3/bin/as...
+[T 12:37:40 49175]  -> path lookup for as as /users/xiaoxinz/perl5/bin/as...
+[T 12:37:40 49175]  -> path lookup for as as /usr/local/bin/as...
+[T 12:37:40 49175]  -> path lookup for as as /usr/bin/as...
+[T 12:37:40 49175] ==== Candidate to intercept: /usr/bin/as (canonical: /usr/bin/as) ====
+[T 12:37:40 49175] Pathname resolved to /usr/bin/as, which does not match a compiler.
+[T 12:37:40 49176] Attempting to switch stdout/stderr to 3...
+[T 12:37:40 49176] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[E 12:37:40 49176] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:40 49176] Current directory: /scratch/queryLang/example-cpp-project-master
+[E 12:37:40 49176] Command: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --mimic '/usr/bin/g++' -c Triangle.cpp -o Triangle.o
+[E 12:37:40 49176] Processed command line: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --trapfolder /scratch/queryLang/codeql/example-cpp-db/trap/cpp --src_archive /scratch/queryLang/codeql/example-cpp-db/src --mimic_config /scratch/queryLang/codeql/example-cpp-db/working/compiler_mimic_cache/cc9728eab5e5 --object_filename Triangle.o -w --error_limit 1000 --disable_system_macros --variadic_macros '--g++' --gnu_version 40805 --builtin_functions_file /scratch/queryLang/codeql/example-cpp-db/working/compiler_mimic_cache/builtins_ee219abb772c --target linux_x86_64 '-D__DBL_MIN_EXP__=(-1021)' -D__UINT_LEAST16_MAX__=65535 -D__ATOMIC_ACQUIRE=2 -D__FLT_MIN__=1.17549435082228750797e-38F '-D__UINT_LEAST8_TYPE__=unsigned char' '-D__INTMAX_C(c)=c ## L' -D__CHAR_BIT__=8 -D__UINT8_MAX__=255 -D__WINT_MAX__=4294967295U -D__ORDER_LITTLE_ENDIAN__=1234 -D__SIZE_MAX__=18446744073709551615UL -D__WCHAR_MAX__=2147483647 -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1=1 -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_2=1 -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_4=1 '-D__DBL_DENORM_MIN__=double(4.94065645841246544177e-324L)' -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_8=1 -D__GCC_ATOMIC_CHAR_LOCK_FREE=2 -D__FLT_EVAL_METHOD__=0 -D__unix__=1 -D__GCC_ATOMIC_CHAR32_T_LOCK_FREE=2 -D__x86_64=1 -D__UINT_FAST64_MAX__=18446744073709551615UL -D__SIG_ATOMIC_TYPE__=int '-D__DBL_MIN_10_EXP__=(-307)' -D__FINITE_MATH_ONLY__=0 -D__UINT_FAST8_MAX__=255 -D__DEC64_MAX_EXP__=385 '-D__INT8_C(c)=c' -D__UINT_LEAST64_MAX__=18446744073709551615UL -D__SHRT_MAX__=32767 '-D__LDBL_MAX__=1.18973149535723176502e+4932L' -D__UINT_LEAST8_MAX__=255 -D__GCC_ATOMIC_BOOL_LOCK_FREE=2 '-D__UINTMAX_TYPE__=long unsigned int' -D__linux=1 -D__DEC32_EPSILON__=1E-6DF -D__unix=1 -D__UINT32_MAX__=4294967295U -D__LDBL_MAX_EXP__=16384 -D__WINT_MIN__=0U -D__linux__=1 -D__SCHAR_MAX__=127 '-D__WCHAR_MIN__=(-__WCHAR_MAX__ - 1)' '-D__INT64_C(c)=c ## L' -D__DBL_DIG__=15 -D__GCC_ATOMIC_POINTER_LOCK_FREE=2 -D__SIZEOF_INT__=4 -D__SIZEOF_POINTER__=8 -D__GCC_ATOMIC_CHAR16_T_LOCK_FREE=2 -D__USER_LABEL_PREFIX__= -D__LDBL_HAS_INFINITY__=1 -D__FLT_EPSILON__=1.19209289550781250000e-7F -D__GXX_WEAK__=1 -D__LDBL_MIN__=3.36210314311209350626e-4932L -D__DEC32_MAX__=9.999999E96DF -D__INT32_MAX__=2147483647 -D__SIZEOF_LONG__=8 -D__STDC_IEC_559__=1 -D__STDC_ISO_10646__=201103L '-D__UINT16_C(c)=c' -D__DECIMAL_DIG__=21 -D__gnu_linux__=1 -D__LDBL_HAS_QUIET_NAN__=1 -D__GXX_RTTI=1 -D__MMX__=1 -D__FLT_HAS_DENORM__=1 -D__SIZEOF_LONG_DOUBLE__=16 -D__BIGGEST_ALIGNMENT__=16 '-D__DBL_MAX__=double(1.79769313486231570815e+308L)' -D__INT_FAST32_MAX__=9223372036854775807L -D__DBL_HAS_INFINITY__=1 -D__INT64_MAX__=9223372036854775807L '-D__DEC32_MIN_EXP__=(-94)' '-D__INT_FAST16_TYPE__=long int' -D__LDBL_HAS_DENORM__=1 -D__DEC128_MAX__=9.999999999999999999999999999999999E6144DL -D__INT_LEAST32_MAX__=2147483647 -D__DEC32_MIN__=1E-95DF -D__DEPRECATED=1 -D__DBL_MAX_EXP__=1024 -D__DEC128_EPSILON__=1E-33DL -D__SSE2_MATH__=1 -D__ATOMIC_HLE_RELEASE=131072 -D__PTRDIFF_MAX__=9223372036854775807L -D__amd64=1 -D__STDC_NO_THREADS__=1 -D__ATOMIC_HLE_ACQUIRE=65536 -D__LONG_LONG_MAX__=9223372036854775807LL -D__SIZEOF_SIZE_T__=8 -D__SIZEOF_WINT_T__=4 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -D__GXX_ABI_VERSION=1002 '-D__FLT_MIN_EXP__=(-125)' '-D__INT_FAST64_TYPE__=long int' '-D__DBL_MIN__=double(2.22507385850720138309e-308L)' -D__LP64__=1 -D__DECIMAL_BID_FORMAT__=1 -D__DEC128_MIN__=1E-6143DL -D__REGISTER_PREFIX__= -D__UINT16_MAX__=65535 -D__DBL_HAS_DENORM__=1 '-D__UINT8_TYPE__=unsigned char' -D__NO_INLINE__=1 -D__FLT_MANT_DIG__=24 '-D__UINT64_C(c)=c ## UL' -D_STDC_PREDEF_H=1 -D__GCC_ATOMIC_INT_LOCK_FREE=2 -D__FLOAT_WORD_ORDER__=__ORDER_LITTLE_ENDIAN__ -D__STDC_IEC_559_COMPLEX__=1 '-D__INT32_C(c)=c' -D__DEC64_EPSILON__=1E-15DD -D__ORDER_PDP_ENDIAN__=3412 '-D__DEC128_MIN_EXP__=(-6142)' '-D__INT_FAST32_TYPE__=long int' '-D__UINT_LEAST16_TYPE__=short unsigned int' -Dunix=1 -D__INT16_MAX__=32767 '-D__SIZE_TYPE__=long unsigned int' -D__UINT64_MAX__=18446744073709551615UL '-D__INT8_TYPE__=signed char' -D__ELF__=1 -D__FLT_RADIX__=2 '-D__INT_LEAST16_TYPE__=short int' -D__LDBL_EPSILON__=1.08420217248550443401e-19L '-D__UINTMAX_C(c)=c ## UL' -D__GNUC_RH_RELEASE__=39 -D__k8=1 -D__SIG_ATOMIC_MAX__=2147483647 -D__GCC_ATOMIC_WCHAR_T_LOCK_FREE=2 -D__SIZEOF_PTRDIFF_T__=8 -D__x86_64__=1 -D__DEC32_SUBNORMAL_MIN__=0.000001E-95DF -D__INT_FAST16_MAX__=9223372036854775807L -D__UINT_FAST32_MAX__=18446744073709551615UL '-D__UINT_LEAST64_TYPE__=long unsigned int' -D__FLT_HAS_QUIET_NAN__=1 -D__FLT_MAX_10_EXP__=38 -D__LONG_MAX__=9223372036854775807L -D__DEC128_SUBNORMAL_MIN__=0.000000000000000000000000000000001E-6143DL -D__FLT_HAS_INFINITY__=1 '-D__UINT_FAST16_TYPE__=long unsigned int' -D__DEC64_MAX__=9.999999999999999E384DD -D__PRAGMA_REDEFINE_EXTNAME=1 -D__INT_LEAST16_MAX__=32767 -D__DEC64_MANT_DIG__=16 -D__UINT_LEAST32_MAX__=4294967295U -D__GCC_ATOMIC_LONG_LOCK_FREE=2 '-D__INT_LEAST64_TYPE__=long int' '-D__INT16_TYPE__=short int' '-D__INT_LEAST8_TYPE__=signed char' -D__DEC32_MAX_EXP__=97 -D__INT_FAST8_MAX__=127 -D__INTPTR_MAX__=9223372036854775807L -Dlinux=1 -D__SSE2__=1 -D__EXCEPTIONS=1 -D__LDBL_MANT_DIG__=64 -D__DBL_HAS_QUIET_NAN__=1 '-D__SIG_ATOMIC_MIN__=(-__SIG_ATOMIC_MAX__ - 1)' -D__code_model_small__=1 -D__k8__=1 '-D__INTPTR_TYPE__=long int' '-D__UINT16_TYPE__=short unsigned int' -D__WCHAR_TYPE__=int -D__SIZEOF_FLOAT__=4 -D__UINTPTR_MAX__=18446744073709551615UL '-D__DEC64_MIN_EXP__=(-382)' -D__INT_FAST64_MAX__=9223372036854775807L -D__GCC_ATOMIC_TEST_AND_SET_TRUEVAL=1 -D__FLT_DIG__=6 '-D__UINT_FAST64_TYPE__=long unsigned int' -D__INT_MAX__=2147483647 -D__amd64__=1 '-D__INT64_TYPE__=long int' -D__FLT_MAX_EXP__=128 -D__ORDER_BIG_ENDIAN__=4321 -D__DBL_MANT_DIG__=53 -D__INT_LEAST64_MAX__=9223372036854775807L -D__DEC64_MIN__=1E-383DD '-D__WINT_TYPE__=unsigned int' '-D__UINT_LEAST32_TYPE__=unsigned int' -D__SIZEOF_SHORT__=2 -D__SSE__=1 '-D__LDBL_MIN_EXP__=(-16381)' -D__INT_LEAST8_MAX__=127 -D__SIZEOF_INT128__=16 -D__LDBL_MAX_10_EXP__=4932 -D__ATOMIC_RELAXED=0 '-D__DBL_EPSILON__=double(2.22044604925031308085e-16L)' -D_LP64=1 '-D__UINT8_C(c)=c' -D__INT_LEAST32_TYPE__=int -D__SIZEOF_WCHAR_T__=4 '-D__UINT64_TYPE__=long unsigned int' '-D__INT_FAST8_TYPE__=signed char' -D__DBL_DECIMAL_DIG__=17 -D__FXSR__=1 -D__DEC_EVAL_METHOD__=2 '-D__UINT32_C(c)=c ## U' -D__INTMAX_MAX__=9223372036854775807L -D__BYTE_ORDER__=__ORDER_LITTLE_ENDIAN__ -D__FLT_DENORM_MIN__=1.40129846432481707092e-45F -D__INT8_MAX__=127 '-D__UINT_FAST32_TYPE__=long unsigned int' '-D__FLT_MAX__=3.40282346638528859812e+38F' -D__INT32_TYPE__=int -D__SIZEOF_DOUBLE__=8 '-D__INTMAX_TYPE__=long int' -D__DEC128_MAX_EXP__=6145 -D__ATOMIC_CONSUME=1 -D__UINTMAX_MAX__=18446744073709551615UL -D__DEC32_MANT_DIG__=7 -D__DBL_MAX_10_EXP__=308 -D__LDBL_DENORM_MIN__=3.64519953188247460253e-4951L '-D__INT16_C(c)=c' '-D__PTRDIFF_TYPE__=long int' -D__ATOMIC_SEQ_CST=5 '-D__UINT32_TYPE__=unsigned int' '-D__UINTPTR_TYPE__=long unsigned int' -D__DEC64_SUBNORMAL_MIN__=0.000000000000001E-383DD -D__DEC128_MANT_DIG__=34 '-D__LDBL_MIN_10_EXP__=(-4931)' -D__SSE_MATH__=1 -D__SIZEOF_LONG_LONG__=8 -D__GCC_ATOMIC_LLONG_LOCK_FREE=2 -D__LDBL_DIG__=18 -D__FLT_DECIMAL_DIG__=9 -D__UINT_FAST16_MAX__=18446744073709551615UL '-D__FLT_MIN_10_EXP__=(-37)' -D__GCC_ATOMIC_SHORT_LOCK_FREE=2 '-D__UINT_FAST8_TYPE__=unsigned char' -D_GNU_SOURCE=1 -D__ATOMIC_ACQ_REL=4 -D__ATOMIC_RELEASE=3 '-I/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5' '-I/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux' '-I/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward' -I/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include -I/usr/local/include -I/usr/include -- Triangle.cpp
+[E 12:37:40 49176] Starting compilation TRAP /scratch/queryLang/codeql/example-cpp-db/trap/cpp/compilations/34/76662_0.trap.br
+[E 12:37:40 49176] Archiving /scratch/queryLang/codeql/example-cpp-db/src/scratch/queryLang/example-cpp-project-master/Triangle.cpp
+[E 12:37:40 49176] Archiving /scratch/queryLang/codeql/example-cpp-db/src/scratch/queryLang/example-cpp-project-master/Triangle.hpp
+[E 12:37:40 49176] Already archived /scratch/queryLang/codeql/example-cpp-db/src/scratch/queryLang/example-cpp-project-master/Polygon.hpp
+[E 12:37:40 49176] Creating trap tarball /scratch/queryLang/codeql/example-cpp-db/trap/cpp/tarballs/scratch/queryLang/example-cpp-project-master/Triangle.cpp.3ec61d18_0.trap.tar.br
+[E 12:37:40 49176] Emitting trap files for Triangle.cpp
+[E 12:37:40 49176] Opening existencedb in /scratch/queryLang/codeql/example-cpp-db/working/existencedb/db
+[E 12:37:40 49176] Wrote 2 files to /scratch/queryLang/codeql/example-cpp-db/trap/cpp/tarballs/scratch/queryLang/example-cpp-project-master/Triangle.cpp.3ec61d18_0.trap.tar.br
+[E 12:37:40 49176] Finished compilation TRAP /scratch/queryLang/codeql/example-cpp-db/trap/cpp/compilations/34/76662_0.trap.br
+[T 12:37:40 49170] Extractor terminated with exit code 0.
+[T 12:37:40 49177] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49177] ==== Candidate to intercept: g++ (canonical: g++) ====
+[T 12:37:40 49177] Will try to resolve g++ in path /usr/lib64/qt-3.3/bin:/users/xiaoxinz/perl5/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/ucb:/bin:/usr/bin:/opt/puppetlabs/bin.
+[T 12:37:40 49177]  -> path lookup for g++ as /usr/lib64/qt-3.3/bin/g++...
+[T 12:37:40 49177]  -> path lookup for g++ as /users/xiaoxinz/perl5/bin/g++...
+[T 12:37:40 49177]  -> path lookup for g++ as /usr/local/bin/g++...
+[T 12:37:40 49177]  -> path lookup for g++ as /usr/bin/g++...
+[T 12:37:40 49177] ==== Candidate to intercept: /usr/bin/g++ (canonical: /usr/bin/g++) ====
+[T 12:37:40 49177] === Intercepted call to /usr/bin/g++ === 
+[T 12:37:40 49177] Resolved barename g++ to /usr/bin/g++, which matched **/*++*...
+[T 12:37:40 49179] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49179] ==== Candidate to intercept: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/cc1plus (canonical: /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus) ====
+[T 12:37:40 49179] === Intercepted call to /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus === 
+[T 12:37:40 49181] Attempting to switch stdout/stderr to 3...
+[T 12:37:40 49181] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[E 12:37:40 49181] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:40 49181] Current directory: /scratch/queryLang/example-cpp-project-master
+[E 12:37:40 49181] Command: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --mimic /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/cc1plus -quiet -D_GNU_SOURCE main.cpp -quiet -dumpbase main.cpp -mtune=generic -march=x86-64 -auxbase main -o /tmp/ccWLuhZf.s
+[E 12:37:40 49181] Not a compiler; exiting. Reason: 
+[T 12:37:40 49179] Extractor terminated with exit code 0.
+[T 12:37:40 49182] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49182] ==== Candidate to intercept: as (canonical: as) ====
+[T 12:37:40 49182] Will try to resolve as in path /usr/lib64/qt-3.3/bin:/users/xiaoxinz/perl5/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/usr/ucb:/bin:/usr/bin:/opt/puppetlabs/bin.
+[T 12:37:40 49182]  -> path lookup for as as /usr/lib64/qt-3.3/bin/as...
+[T 12:37:40 49182]  -> path lookup for as as /users/xiaoxinz/perl5/bin/as...
+[T 12:37:40 49182]  -> path lookup for as as /usr/local/bin/as...
+[T 12:37:40 49182]  -> path lookup for as as /usr/bin/as...
+[T 12:37:40 49182] ==== Candidate to intercept: /usr/bin/as (canonical: /usr/bin/as) ====
+[T 12:37:40 49182] Pathname resolved to /usr/bin/as, which does not match a compiler.
+[T 12:37:40 49183] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:40 49183] ==== Candidate to intercept: /usr/libexec/gcc/x86_64-redhat-linux/4.8.5/collect2 (canonical: /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/collect2) ====
+[T 12:37:40 49183] === Intercepted call to /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/collect2 === 
+[T 12:37:40 49184] Attempting to switch stdout/stderr to 3...
+[T 12:37:40 49184] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[E 12:37:40 49184] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:40 49184] Current directory: /scratch/queryLang/example-cpp-project-master
+[E 12:37:40 49184] Command: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --linker --semmle-linker-executable /usr/libexec/gcc/x86_64-redhat-linux/4.8.2/collect2 --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o main /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. Polygon.o Rectangle.o Triangle.o /tmp/cc6y6ybK.o '-lstdc++' -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+Warning: Unrecognised command line argument --build-id
+[E 12:37:40 49184] Warning[extractor-c++]: In canonicalise_path: realpath failed
+[E 12:37:40 49184] Warning[extractor-c++]: In canonicalise_path: realpath failed
+[E 12:37:40 49184] Warning[extractor-c++]: In print_object_names: Could not open object file "elf_x86_64" (error 2: No such file or directory).
+[E 12:37:40 49184] Warning[extractor-c++]: In canonicalise_path: realpath failed
+[T 12:37:41 49185] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[T 12:37:41 49185] ==== Candidate to intercept: /usr/bin/ld (canonical: /usr/bin/ld.bfd) ====
+[T 12:37:41 49185] === Intercepted call to /usr/bin/ld.bfd === 
+[T 12:37:41 49187] Attempting to switch stdout/stderr to 3...
+[T 12:37:41 49187] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[E 12:37:41 49187] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:41 49187] Current directory: /scratch/queryLang/example-cpp-project-master
+[E 12:37:41 49187] Command: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --linker --semmle-linker-executable /usr/bin/ld.bfd --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o main /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crt1.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crti.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtbegin.o -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../.. Polygon.o Rectangle.o Triangle.o /tmp/cc6y6ybK.o '-lstdc++' -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/4.8.5/crtend.o /usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../lib64/crtn.o
+Warning: Unrecognised command line argument --build-id
+[E 12:37:41 49187] Warning[extractor-c++]: In canonicalise_path: realpath failed
+[E 12:37:41 49187] Warning[extractor-c++]: In canonicalise_path: realpath failed
+[E 12:37:41 49187] Warning[extractor-c++]: In print_object_names: Could not open object file "elf_x86_64" (error 2: No such file or directory).
+[E 12:37:41 49187] Warning[extractor-c++]: In canonicalise_path: realpath failed
+[T 12:37:41 49188] Attempting to switch stdout/stderr to 3...
+[T 12:37:41 49188] Reading configuration file /scratch/queryLang/codeql/example-cpp-db/working/tracing/compiler-tracing16759442772763788537.spec...
+[E 12:37:41 49188] CodeQL C/C++ Extractor 1.28.0-SNAPSHOT
+[E 12:37:41 49188] Current directory: /scratch/queryLang/example-cpp-project-master
+[E 12:37:41 49188] Command: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --mimic '/usr/bin/g++' Polygon.o Rectangle.o Triangle.o main.cpp -o main
+Excluded Polygon.o because it is an object
+Excluded Rectangle.o because it is an object
+Excluded Triangle.o because it is an object
+[E 12:37:41 49188] Processed command line: /scratch/queryLang/codeql/cpp/tools/linux64/extractor --trapfolder /scratch/queryLang/codeql/example-cpp-db/trap/cpp --src_archive /scratch/queryLang/codeql/example-cpp-db/src --mimic_config /scratch/queryLang/codeql/example-cpp-db/working/compiler_mimic_cache/cc9728eab5e5 --executable_filename /scratch/queryLang/example-cpp-project-master/main -w --error_limit 1000 --disable_system_macros --variadic_macros '--g++' --gnu_version 40805 --builtin_functions_file /scratch/queryLang/codeql/example-cpp-db/working/compiler_mimic_cache/builtins_ee219abb772c --target linux_x86_64 '-D__DBL_MIN_EXP__=(-1021)' -D__UINT_LEAST16_MAX__=65535 -D__ATOMIC_ACQUIRE=2 -D__FLT_MIN__=1.17549435082228750797e-38F '-D__UINT_LEAST8_TYPE__=unsigned char' '-D__INTMAX_C(c)=c ## L' -D__CHAR_BIT__=8 -D__UINT8_MAX__=255 -D__WINT_MAX__=4294967295U -D__ORDER_LITTLE_ENDIAN__=1234 -D__SIZE_MAX__=18446744073709551615UL -D__WCHAR_MAX__=2147483647 -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1=1 -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_2=1 -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_4=1 '-D__DBL_DENORM_MIN__=double(4.94065645841246544177e-324L)' -D__GCC_HAVE_SYNC_COMPARE_AND_SWAP_8=1 -D__GCC_ATOMIC_CHAR_LOCK_FREE=2 -D__FLT_EVAL_METHOD__=0 -D__unix__=1 -D__GCC_ATOMIC_CHAR32_T_LOCK_FREE=2 -D__x86_64=1 -D__UINT_FAST64_MAX__=18446744073709551615UL -D__SIG_ATOMIC_TYPE__=int '-D__DBL_MIN_10_EXP__=(-307)' -D__FINITE_MATH_ONLY__=0 -D__UINT_FAST8_MAX__=255 -D__DEC64_MAX_EXP__=385 '-D__INT8_C(c)=c' -D__UINT_LEAST64_MAX__=18446744073709551615UL -D__SHRT_MAX__=32767 '-D__LDBL_MAX__=1.18973149535723176502e+4932L' -D__UINT_LEAST8_MAX__=255 -D__GCC_ATOMIC_BOOL_LOCK_FREE=2 '-D__UINTMAX_TYPE__=long unsigned int' -D__linux=1 -D__DEC32_EPSILON__=1E-6DF -D__unix=1 -D__UINT32_MAX__=4294967295U -D__LDBL_MAX_EXP__=16384 -D__WINT_MIN__=0U -D__linux__=1 -D__SCHAR_MAX__=127 '-D__WCHAR_MIN__=(-__WCHAR_MAX__ - 1)' '-D__INT64_C(c)=c ## L' -D__DBL_DIG__=15 -D__GCC_ATOMIC_POINTER_LOCK_FREE=2 -D__SIZEOF_INT__=4 -D__SIZEOF_POINTER__=8 -D__GCC_ATOMIC_CHAR16_T_LOCK_FREE=2 -D__USER_LABEL_PREFIX__= -D__LDBL_HAS_INFINITY__=1 -D__FLT_EPSILON__=1.19209289550781250000e-7F -D__GXX_WEAK__=1 -D__LDBL_MIN__=3.36210314311209350626e-4932L -D__DEC32_MAX__=9.999999E96DF -D__INT32_MAX__=2147483647 -D__SIZEOF_LONG__=8 -D__STDC_IEC_559__=1 -D__STDC_ISO_10646__=201103L '-D__UINT16_C(c)=c' -D__DECIMAL_DIG__=21 -D__gnu_linux__=1 -D__LDBL_HAS_QUIET_NAN__=1 -D__GXX_RTTI=1 -D__MMX__=1 -D__FLT_HAS_DENORM__=1 -D__SIZEOF_LONG_DOUBLE__=16 -D__BIGGEST_ALIGNMENT__=16 '-D__DBL_MAX__=double(1.79769313486231570815e+308L)' -D__INT_FAST32_MAX__=9223372036854775807L -D__DBL_HAS_INFINITY__=1 -D__INT64_MAX__=9223372036854775807L '-D__DEC32_MIN_EXP__=(-94)' '-D__INT_FAST16_TYPE__=long int' -D__LDBL_HAS_DENORM__=1 -D__DEC128_MAX__=9.999999999999999999999999999999999E6144DL -D__INT_LEAST32_MAX__=2147483647 -D__DEC32_MIN__=1E-95DF -D__DEPRECATED=1 -D__DBL_MAX_EXP__=1024 -D__DEC128_EPSILON__=1E-33DL -D__SSE2_MATH__=1 -D__ATOMIC_HLE_RELEASE=131072 -D__PTRDIFF_MAX__=9223372036854775807L -D__amd64=1 -D__STDC_NO_THREADS__=1 -D__ATOMIC_HLE_ACQUIRE=65536 -D__LONG_LONG_MAX__=9223372036854775807LL -D__SIZEOF_SIZE_T__=8 -D__SIZEOF_WINT_T__=4 -D__GCC_HAVE_DWARF2_CFI_ASM=1 -D__GXX_ABI_VERSION=1002 '-D__FLT_MIN_EXP__=(-125)' '-D__INT_FAST64_TYPE__=long int' '-D__DBL_MIN__=double(2.22507385850720138309e-308L)' -D__LP64__=1 -D__DECIMAL_BID_FORMAT__=1 -D__DEC128_MIN__=1E-6143DL -D__REGISTER_PREFIX__= -D__UINT16_MAX__=65535 -D__DBL_HAS_DENORM__=1 '-D__UINT8_TYPE__=unsigned char' -D__NO_INLINE__=1 -D__FLT_MANT_DIG__=24 '-D__UINT64_C(c)=c ## UL' -D_STDC_PREDEF_H=1 -D__GCC_ATOMIC_INT_LOCK_FREE=2 -D__FLOAT_WORD_ORDER__=__ORDER_LITTLE_ENDIAN__ -D__STDC_IEC_559_COMPLEX__=1 '-D__INT32_C(c)=c' -D__DEC64_EPSILON__=1E-15DD -D__ORDER_PDP_ENDIAN__=3412 '-D__DEC128_MIN_EXP__=(-6142)' '-D__INT_FAST32_TYPE__=long int' '-D__UINT_LEAST16_TYPE__=short unsigned int' -Dunix=1 -D__INT16_MAX__=32767 '-D__SIZE_TYPE__=long unsigned int' -D__UINT64_MAX__=18446744073709551615UL '-D__INT8_TYPE__=signed char' -D__ELF__=1 -D__FLT_RADIX__=2 '-D__INT_LEAST16_TYPE__=short int' -D__LDBL_EPSILON__=1.08420217248550443401e-19L '-D__UINTMAX_C(c)=c ## UL' -D__GNUC_RH_RELEASE__=39 -D__k8=1 -D__SIG_ATOMIC_MAX__=2147483647 -D__GCC_ATOMIC_WCHAR_T_LOCK_FREE=2 -D__SIZEOF_PTRDIFF_T__=8 -D__x86_64__=1 -D__DEC32_SUBNORMAL_MIN__=0.000001E-95DF -D__INT_FAST16_MAX__=9223372036854775807L -D__UINT_FAST32_MAX__=18446744073709551615UL '-D__UINT_LEAST64_TYPE__=long unsigned int' -D__FLT_HAS_QUIET_NAN__=1 -D__FLT_MAX_10_EXP__=38 -D__LONG_MAX__=9223372036854775807L -D__DEC128_SUBNORMAL_MIN__=0.000000000000000000000000000000001E-6143DL -D__FLT_HAS_INFINITY__=1 '-D__UINT_FAST16_TYPE__=long unsigned int' -D__DEC64_MAX__=9.999999999999999E384DD -D__PRAGMA_REDEFINE_EXTNAME=1 -D__INT_LEAST16_MAX__=32767 -D__DEC64_MANT_DIG__=16 -D__UINT_LEAST32_MAX__=4294967295U -D__GCC_ATOMIC_LONG_LOCK_FREE=2 '-D__INT_LEAST64_TYPE__=long int' '-D__INT16_TYPE__=short int' '-D__INT_LEAST8_TYPE__=signed char' -D__DEC32_MAX_EXP__=97 -D__INT_FAST8_MAX__=127 -D__INTPTR_MAX__=9223372036854775807L -Dlinux=1 -D__SSE2__=1 -D__EXCEPTIONS=1 -D__LDBL_MANT_DIG__=64 -D__DBL_HAS_QUIET_NAN__=1 '-D__SIG_ATOMIC_MIN__=(-__SIG_ATOMIC_MAX__ - 1)' -D__code_model_small__=1 -D__k8__=1 '-D__INTPTR_TYPE__=long int' '-D__UINT16_TYPE__=short unsigned int' -D__WCHAR_TYPE__=int -D__SIZEOF_FLOAT__=4 -D__UINTPTR_MAX__=18446744073709551615UL '-D__DEC64_MIN_EXP__=(-382)' -D__INT_FAST64_MAX__=9223372036854775807L -D__GCC_ATOMIC_TEST_AND_SET_TRUEVAL=1 -D__FLT_DIG__=6 '-D__UINT_FAST64_TYPE__=long unsigned int' -D__INT_MAX__=2147483647 -D__amd64__=1 '-D__INT64_TYPE__=long int' -D__FLT_MAX_EXP__=128 -D__ORDER_BIG_ENDIAN__=4321 -D__DBL_MANT_DIG__=53 -D__INT_LEAST64_MAX__=9223372036854775807L -D__DEC64_MIN__=1E-383DD '-D__WINT_TYPE__=unsigned int' '-D__UINT_LEAST32_TYPE__=unsigned int' -D__SIZEOF_SHORT__=2 -D__SSE__=1 '-D__LDBL_MIN_EXP__=(-16381)' -D__INT_LEAST8_MAX__=127 -D__SIZEOF_INT128__=16 -D__LDBL_MAX_10_EXP__=4932 -D__ATOMIC_RELAXED=0 '-D__DBL_EPSILON__=double(2.22044604925031308085e-16L)' -D_LP64=1 '-D__UINT8_C(c)=c' -D__INT_LEAST32_TYPE__=int -D__SIZEOF_WCHAR_T__=4 '-D__UINT64_TYPE__=long unsigned int' '-D__INT_FAST8_TYPE__=signed char' -D__DBL_DECIMAL_DIG__=17 -D__FXSR__=1 -D__DEC_EVAL_METHOD__=2 '-D__UINT32_C(c)=c ## U' -D__INTMAX_MAX__=9223372036854775807L -D__BYTE_ORDER__=__ORDER_LITTLE_ENDIAN__ -D__FLT_DENORM_MIN__=1.40129846432481707092e-45F -D__INT8_MAX__=127 '-D__UINT_FAST32_TYPE__=long unsigned int' '-D__FLT_MAX__=3.40282346638528859812e+38F' -D__INT32_TYPE__=int -D__SIZEOF_DOUBLE__=8 '-D__INTMAX_TYPE__=long int' -D__DEC128_MAX_EXP__=6145 -D__ATOMIC_CONSUME=1 -D__UINTMAX_MAX__=18446744073709551615UL -D__DEC32_MANT_DIG__=7 -D__DBL_MAX_10_EXP__=308 -D__LDBL_DENORM_MIN__=3.64519953188247460253e-4951L '-D__INT16_C(c)=c' '-D__PTRDIFF_TYPE__=long int' -D__ATOMIC_SEQ_CST=5 '-D__UINT32_TYPE__=unsigned int' '-D__UINTPTR_TYPE__=long unsigned int' -D__DEC64_SUBNORMAL_MIN__=0.000000000000001E-383DD -D__DEC128_MANT_DIG__=34 '-D__LDBL_MIN_10_EXP__=(-4931)' -D__SSE_MATH__=1 -D__SIZEOF_LONG_LONG__=8 -D__GCC_ATOMIC_LLONG_LOCK_FREE=2 -D__LDBL_DIG__=18 -D__FLT_DECIMAL_DIG__=9 -D__UINT_FAST16_MAX__=18446744073709551615UL '-D__FLT_MIN_10_EXP__=(-37)' -D__GCC_ATOMIC_SHORT_LOCK_FREE=2 '-D__UINT_FAST8_TYPE__=unsigned char' -D_GNU_SOURCE=1 -D__ATOMIC_ACQ_REL=4 -D__ATOMIC_RELEASE=3 '-I/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5' '-I/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/x86_64-redhat-linux' '-I/usr/lib/gcc/x86_64-redhat-linux/4.8.5/../../../../include/c++/4.8.5/backward' -I/usr/lib/gcc/x86_64-redhat-linux/4.8.5/include -I/usr/local/include -I/usr/include -- main.cpp
+[E 12:37:41 49188] Starting compilation TRAP /scratch/queryLang/codeql/example-cpp-db/trap/cpp/compilations/63/19281759_0.trap.br
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/scratch/queryLang/example-cpp-project-master/main.cpp
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/iostream
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++config.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/bits/wordsize.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/os_defines.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/features.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/stdc-predef.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/sys/cdefs.h
+[E 12:37:41 49188] Already archived /scratch/queryLang/codeql/example-cpp-db/src/usr/include/bits/wordsize.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/gnu/stubs.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/gnu/stubs-64.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/cpu_defines.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/ostream
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/ios
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/iosfwd
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/stringfwd.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/memoryfwd.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/postypes.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/cwchar
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/wchar.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/stdio.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stdarg.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/bits/wchar.h
+[E 12:37:41 49188] Already archived /scratch/queryLang/codeql/example-cpp-db/src/usr/include/bits/wordsize.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stddef.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/xlocale.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/exception
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/atomic_lockfree_defines.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/char_traits.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/stl_algobase.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/functexcept.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/exception_defines.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/cpp_type_traits.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/ext/type_traits.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/ext/numeric_traits.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/stl_pair.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/move.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/concept_check.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/stl_iterator_base_types.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/stl_iterator_base_funcs.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/debug/debug.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/stl_iterator.h
+[E 12:37:41 49188] Already archived /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/cwchar
+[E 12:37:41 49188] Already archived /scratch/queryLang/codeql/example-cpp-db/src/usr/include/wchar.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/localefwd.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++locale.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/clocale
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/locale.h
+[E 12:37:41 49188] Already archived /scratch/queryLang/codeql/example-cpp-db/src/usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stddef.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/bits/locale.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/cctype
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/ctype.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/bits/types.h
+[E 12:37:41 49188] Already archived /scratch/queryLang/codeql/example-cpp-db/src/usr/include/bits/wordsize.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/bits/typesizes.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/endian.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/bits/endian.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/bits/byteswap.h
+[E 12:37:41 49188] Already archived /scratch/queryLang/codeql/example-cpp-db/src/usr/include/bits/wordsize.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/bits/byteswap-16.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/ios_base.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/ext/atomicity.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/gthr.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/gthr-default.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/pthread.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/sched.h
+[E 12:37:41 49188] Already archived /scratch/queryLang/codeql/example-cpp-db/src/usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stddef.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/time.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/bits/sched.h
+[E 12:37:41 49188] Already archived /scratch/queryLang/codeql/example-cpp-db/src/usr/include/time.h
+[E 12:37:41 49188] Already archived /scratch/queryLang/codeql/example-cpp-db/src/usr/lib/gcc/x86_64-redhat-linux/4.8.2/include/stddef.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/bits/time.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/bits/timex.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/bits/pthreadtypes.h
+[E 12:37:41 49188] Already archived /scratch/queryLang/codeql/example-cpp-db/src/usr/include/bits/wordsize.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/bits/setjmp.h
+[E 12:37:41 49188] Already archived /scratch/queryLang/codeql/example-cpp-db/src/usr/include/bits/wordsize.h
+[E 12:37:41 49188] Already archived /scratch/queryLang/codeql/example-cpp-db/src/usr/include/bits/wordsize.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/atomic_word.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/locale_classes.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/string
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/allocator.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/c++allocator.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/ext/new_allocator.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/new
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/ostream_insert.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/cxxabi_forced.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/stl_function.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/backward/binders.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/range_access.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/basic_string.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/basic_string.tcc
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/locale_classes.tcc
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/streambuf
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/streambuf.tcc
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/basic_ios.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/locale_facets.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/cwctype
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/wctype.h
+[E 12:37:41 49188] Already archived /scratch/queryLang/codeql/example-cpp-db/src/usr/include/wchar.h
+[E 12:37:41 49188] Already archived /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/cctype
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/ctype_base.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/streambuf_iterator.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/x86_64-redhat-linux/bits/ctype_inline.h
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/locale_facets.tcc
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/basic_ios.tcc
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/ostream.tcc
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/istream
+[E 12:37:41 49188] Archiving /scratch/queryLang/codeql/example-cpp-db/src/usr/include/c++/4.8.2/bits/istream.tcc
+[E 12:37:41 49188] Already archived /scratch/queryLang/codeql/example-cpp-db/src/scratch/queryLang/example-cpp-project-master/Polygon.hpp
+[E 12:37:41 49188] Already archived /scratch/queryLang/codeql/example-cpp-db/src/scratch/queryLang/example-cpp-project-master/Rectangle.hpp
+[E 12:37:41 49188] Already archived /scratch/queryLang/codeql/example-cpp-db/src/scratch/queryLang/example-cpp-project-master/Triangle.hpp
+[E 12:37:41 49188] Creating trap tarball /scratch/queryLang/codeql/example-cpp-db/trap/cpp/tarballs/scratch/queryLang/example-cpp-project-master/main.cpp.cfbde7f4_0.trap.tar.br
+[E 12:37:41 49188] Emitting trap files for main.cpp
+[E 12:37:41 49188] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 12:37:41 49188] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 12:37:41 49188] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 12:37:41 49188] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 12:37:41 49188] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 12:37:41 49188] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 12:37:41 49188] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 12:37:41 49188] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 12:37:41 49188] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 12:37:41 49188] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 12:37:41 49188] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 12:37:41 49188] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 12:37:41 49188] Warning[extractor-c++]: In discover_overloaded_functions: Unexpected symbol kind in discover_overloaded_functions: 20
+
+[E 12:37:41 49188] Opening existencedb in /scratch/queryLang/codeql/example-cpp-db/working/existencedb/db
+[E 12:37:41 49188] Warning[extractor-c++]: In canonicalise_path: realpath failed
+[E 12:37:41 49188] Wrote 619 files to /scratch/queryLang/codeql/example-cpp-db/trap/cpp/tarballs/scratch/queryLang/example-cpp-project-master/main.cpp.cfbde7f4_0.trap.tar.br
+[E 12:37:41 49188] Finished compilation TRAP /scratch/queryLang/codeql/example-cpp-db/trap/cpp/compilations/63/19281759_0.trap.br
+[T 12:37:41 49177] Extractor terminated with exit code 0.
